@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe",
+			"Vitorvicentevalente"
+		]
+	},
+	"debugtemplates-desc": "Um depurador simples para predefinições",
+	"debugtemplates-api": "URL para fazer chamadas de API (somente para informação)",
+	"debugtemplates-title": "Título da página (opcional, para contexto apenas)",
+	"debugtemplates-args-title": "Parâmetros",
+	"debugtemplates-args-name": "Nome",
+	"debugtemplates-args-value": "Valor",
+	"debugtemplates-args-eval-all": "Avaliar",
+	"debugtemplates-args-set-toggle": "Definir/Indefinir todos",
+	"debugtemplates-error-button": "Limpar mensagens",
+	"debugtemplates-error-template-name": "Erro, não foi possível determinar o nome da predefinição:",
+	"debugtemplates-input": "Texto de entrada",
+	"debugtemplates-radio-select": "nada, ou"
+}

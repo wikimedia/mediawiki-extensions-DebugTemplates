@@ -5,12 +5,11 @@
  * @file
  * @ingroup Extensions
  */
+// @codingStandardsIgnoreFile
 
 $specialPageAliases = array();
 
-/** English
- * @author Clark Verbrugge
- */
+/** English (English) */
 $specialPageAliases['en'] = array(
 	'DebugTemplates' => array( 'DebugTemplates', 'Debug Templates' ),
 );

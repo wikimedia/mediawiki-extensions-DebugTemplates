@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe"
+		]
+	},
+	"debugtemplates": "Depuración de plantillas",
+	"debugtemplates-desc": "Un depurador simple de plantillas",
+	"debugtemplates-summary": "Añade una página especial que proporciona una interfaz para depurar expansiones de plantillas.",
+	"debugtemplates-api": "URL para hacer llamadas a la API (de carácter informativo)",
+	"debugtemplates-title": "Título de la página (opcional, sólo para contexto)",
+	"debugtemplates-args-title": "Parámetros",
+	"debugtemplates-args-name": "Nombre",
+	"debugtemplates-args-eval": "Evaluar todos",
+	"debugtemplates-args-value": "Valor",
+	"debugtemplates-args-eval-all": "Evaluar",
+	"debugtemplates-args-unused": "Ocultar/mostrar los que no se usan",
+	"debugtemplates-args-value-clear": "Borrar todos",
+	"debugtemplates-args-constructed": "sinnombre",
+	"debugtemplates-error-button": "Borrar mensajes",
+	"debugtemplates-eval": "Evaluar todos",
+	"debugtemplates-radio-select": "nada, o",
+	"debugtemplates-radio-eval": "evaluar, o",
+	"debugtemplates-reset": "Deshacer todas las evaluaciones",
+	"debugtemplates-undo": "Deshacer evaluación",
+	"debugtemplates-warning-template-not-a-template": "No se puede encontrar la plantilla:",
+	"debugtemplates-warning-template-not-found": "Plantilla desconocida o incorporada:"
+}

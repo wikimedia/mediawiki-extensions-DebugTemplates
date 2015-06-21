@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"WindEwriX"
+		]
+	},
+	"debugtemplates-args-title": "Параметры",
+	"debugtemplates-args-value": "Значение",
+	"debugtemplates-args-value-clear": "Очистить всё",
+	"debugtemplates-crumb-reset": "Очистить стек.",
+	"debugtemplates-error-arg-eval": "Ошибка, невозможно вычислить аргумент шаблона:",
+	"debugtemplates-error-template-page": "Ошибка, не удалось загрузить страницу шаблона:"
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo"
+		]
+	},
+	"debugtemplates-args-title": "Parámetros",
+	"debugtemplates-args-name": "Nome",
+	"debugtemplates-args-value": "Valor"
+}

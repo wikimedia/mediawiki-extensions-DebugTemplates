@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alexmar983",
+			"Federico Mugnaini"
+		]
+	},
+	"debugtemplates": "Debugga le sagome",
+	"debugtemplates-desc": "Un semplice debugger per le sagome",
+	"debugtemplates-summary": "Aggiunta una pagina speciale che provveda con un interfaccia per il debugging delle espansione del modello.",
+	"debugtemplates-api": "L'URL per comporre delle chiamate API (solo come informazione)",
+	"debugtemplates-title": "Titolo pagina (opzionale, solo per il contesto)",
+	"debugtemplates-args-name": "Nome",
+	"debugtemplates-args-value": "Valuta",
+	"debugtemplates-args-eval-all": "Eval",
+	"debugtemplates-args-set-toggle": "Impostare/Non impostare tutto",
+	"debugtemplates-args-constructed": "No nome",
+	"debugtemplates-crumb-reset": "Cancellare lo stack",
+	"debugtemplates-error-arg-eval": "Errore, non è stato valutato l'argomento per il modello:",
+	"debugtemplates-error-button": "Cancella i Messaggi",
+	"debugtemplates-error-parse": "Errore, testo di ingresso non trovato",
+	"debugtemplates-error-template-name": "Errore, non è stato determinato il nome della sagoma",
+	"debugtemplates-input": "Inserisci il testo",
+	"debugtemplates-radio-intro": "Cliccare sul modello o lo faranno i parametri",
+	"debugtemplates-radio-select": "Niente, o",
+	"debugtemplates-radio-eval": "Valutare, o",
+	"debugtemplates-warning-template-not-a-template": "Sagoma non trovata:",
+	"debugtemplates-warning-template-not-found": "Sconosciuto o costruito nella sagoma",
+	"debugtemplates-output": "Debugga il vetro"
+}
