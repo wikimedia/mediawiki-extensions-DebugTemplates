@@ -6,5 +6,8 @@
 	},
 	"debugtemplates-args-title": "Parámetros",
 	"debugtemplates-args-name": "Nome",
-	"debugtemplates-args-value": "Valor"
+	"debugtemplates-args-value": "Valor",
+	"debugtemplates-error-eval": "Erro, non se puido evaluar o texto de entrada:",
+	"debugtemplates-error-template-name": "Erro, non se puido determinar o nome do modelo:",
+	"debugtemplates-warning-template-not-a-template": "Non se pode atopar o modelo:"
 }
