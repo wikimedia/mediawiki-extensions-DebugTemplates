@@ -6,5 +6,8 @@
 	},
 	"debugtemplates-args-name": "نوم",
 	"debugtemplates-args-value": "ارزښت",
-	"debugtemplates-args-value-clear": "ټول سپينول"
+	"debugtemplates-args-value-clear": "ټول سپينول",
+	"debugtemplates-args-constructed": "بې نومه",
+	"debugtemplates-error-button": "پيغامونه سپينول",
+	"debugtemplates-radio-select": "هېڅ، يا"
 }
