@@ -4,10 +4,13 @@
 			"Chrumps"
 		]
 	},
+	"debugtemplates-args-title": "Parametry",
 	"debugtemplates-args-name": "Nazwa",
 	"debugtemplates-args-value": "Wartość",
 	"debugtemplates-args-set-toggle": "Zaznacz/Odznacz wszystko",
 	"debugtemplates-error-template-name": "Błąd, nie można określić nazwy szablonu:",
+	"debugtemplates-error-template-page": "Błąd, nie udało się załadować strony szablonu:",
+	"debugtemplates-input": "Tekst wejściowy",
 	"debugtemplates-warning-template-not-a-template": "Nie można znaleźć szablonu:",
 	"debugtemplates-warning-template-not-found": "Nieznany lub wbudowany szablon:"
 }
