@@ -330,11 +330,11 @@ function updateFromNewInput( text, newparams ) {
                 } else {
                     updateFromXML( '' );
                     if ( !result.error || result.error.code!="notext" )
-                        debugNote( mw.message( 'debugtemplates-error-parse' ) + t );
+                        debugNote( mw.message( 'debugtemplates-error-parse' ) + ' ' + t );
                 }
             } else {
                 updateFromXML( '' );
-                debugNote( mw.message( 'debugtemplates-error-parse' ) + k );
+                debugNote( mw.message( 'debugtemplates-error-parse' ) + ' ' + k );
             }
         });
     }
@@ -1158,11 +1158,11 @@ function evalText() {
                 if ( result.expandtemplates && result.expandtemplates.wikitext !== undefined ) {
                     evalTextDisplay( result.expandtemplates.wikitext, n );
                 } else {
-                    debugNote( mw.message('debugtemplates-error-eval') + t );
+                    debugNote( mw.message('debugtemplates-error-eval') + ' ' + t );
                     setBusy( false );
                 }
             } else {
-                debugNote( mw.message('debugtemplates-error-eval') + k );
+                debugNote( mw.message('debugtemplates-error-eval') + ' ' + k );
                 setBusy( false );
             }
         });
@@ -1325,13 +1325,13 @@ function paramEvalNext( i, instances, rown ) {
                                 // Chain into an eval of the next one
                                 paramEvalNext( i + 1, instances, rown );
                             } else {
-                                debugNote( mw.message( 'debugtemplates-error-eval' ) + t );
+                                debugNote( mw.message( 'debugtemplates-error-eval' ) + ' ' + t );
                                 setBusy( false );
                                 row = document.getElementById( 'dt-argtable-row-number-' + rown );
                                 row.childNodes[ 3 ].firstChild.removeAttribute( 'disabled' );
                             }
                         } else {
-                            debugNote( mw.message( 'debugtemplates-error-eval' ) + k );
+                            debugNote( mw.message( 'debugtemplates-error-eval' ) + ' ' + k );
                             setBusy( false );
                             row = document.getElementById( 'dt-argtable-row-number-' + rown );
                             row.childNodes[ 3 ].firstChild.removeAttribute( 'disabled' );
@@ -1427,11 +1427,11 @@ function descendInto( node ) {
                                      descendDisplay( astNode, args );
                                  }
                         } else {
-                            debugNote( mw.message( 'debugtemplates-error-arg-eval' ) + t );
+                            debugNote( mw.message( 'debugtemplates-error-arg-eval' ) + ' ' + t );
                             setBusy( false );
                         }
                     } else {
-                        debugNote( mw.message( 'debugtemplates-error-arg-eval' ) + k );
+                        debugNote( mw.message( 'debugtemplates-error-arg-eval' ) + ' ' + k );
                         setBusy( false );
                     }
                 } );
@@ -1487,16 +1487,16 @@ function descendDisplay( node, args ) {
                         // Page actually exists and we have its full name
                         loadTemplate( args[ 0 ], tname, newparams );
                     } else {
-                        debugNote( mw.message( 'debugtemplates-warning-template-not-a-template' ) +
+                        debugNote( mw.message( 'debugtemplates-warning-template-not-a-template' ) + ' ' +
                                    tname );
                         setBusy( false );
                     }
                 } else {
-                    debugNote( mw.message( 'debugtemplates-warning-template-not-found' ) + args[ 0 ] );
+                    debugNote( mw.message( 'debugtemplates-warning-template-not-found' ) + ' ' + args[ 0 ] );
                     setBusy( false );
                 }
             } else {
-                debugNote( mw.message( 'debugtemplates-error-template-name' ) + k );
+                debugNote( mw.message( 'debugtemplates-error-template-name' ) + ' ' + k );
                 setBusy( false );
             }
         } );
@@ -1521,16 +1521,16 @@ function loadTemplate( tinv, tname, newparams ) {
                     if ( pg.revisions && pg.revisions[ 0 ] ) {
                         finishDescent( tinv, newparams, pg.revisions[ 0 ][ '*' ] );
                     } else  {
-                        debugNote( mw.message( 'debugtemplates-error-template-page' ) + tname );
+                        debugNote( mw.message( 'debugtemplates-error-template-page' ) + ' ' + tname );
                         setBusy( false );
                     }
                 }
             } else {
-                debugNote( mw.message( 'debugtemplates-error-template-page' ) + t );
+                debugNote( mw.message( 'debugtemplates-error-template-page' ) + ' ' + t );
                 setBusy( false );
             }
         } else {
-            debugNote( mw.message( 'debugtemplates-error-template-page' ) + k );
+            debugNote( mw.message( 'debugtemplates-error-template-page' ) + ' ' + k );
             setBusy( false );
         }
     } );
@@ -1881,11 +1881,11 @@ function evalAllButton() {
                     evalTextDisplay( result.expandtemplates.wikitext, n );
                     setBusy ( false );
                 } else {
-                    debugNote( mw.message( 'debugtemplates-error-eval' ) + t );
+                    debugNote( mw.message( 'debugtemplates-error-eval' ) + ' ' + t );
                     setBusy ( false );
                 }
             } else {
-                debugNote( mw.message( 'debugtemplates-error-eval' ) + k );
+                debugNote( mw.message( 'debugtemplates-error-eval' ) + ' ' + k );
                 setBusy ( false );
             }
         } );
