@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe"
+		]
+	},
+	"debugtemplates-args-title": "Paramètres",
+	"debugtemplates-args-name": "Nom",
+	"debugtemplates-args-value": "Valeur"
+}
