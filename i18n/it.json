@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Alexmar983",
-			"Federico Mugnaini"
+			"Federico Mugnaini",
+			"Macofe"
 		]
 	},
 	"debugtemplates": "Debugga le sagome",
@@ -10,6 +11,7 @@
 	"debugtemplates-summary": "Aggiunta una pagina speciale che provveda con un interfaccia per il debugging delle espansione del modello.",
 	"debugtemplates-api": "L'URL per comporre delle chiamate API (solo come informazione)",
 	"debugtemplates-title": "Titolo pagina (opzionale, solo per il contesto)",
+	"debugtemplates-args-title": "Parametri",
 	"debugtemplates-args-name": "Nome",
 	"debugtemplates-args-value": "Valuta",
 	"debugtemplates-args-eval-all": "Eval",
@@ -24,8 +26,8 @@
 	"debugtemplates-error-template-revisions": "Errore, non esistono revisioni della pagina per il template:",
 	"debugtemplates-input": "Inserisci il testo",
 	"debugtemplates-radio-intro": "Cliccare sul modello o lo faranno i parametri",
-	"debugtemplates-radio-select": "Niente, o",
-	"debugtemplates-radio-eval": "Valutare, o",
+	"debugtemplates-radio-select": "niente",
+	"debugtemplates-radio-eval": "valutare",
 	"debugtemplates-warning-template-not-a-template": "Sagoma non trovata:",
 	"debugtemplates-warning-template-not-found": "Sconosciuto o costruito nella sagoma",
 	"debugtemplates-output": "Debugga il vetro"

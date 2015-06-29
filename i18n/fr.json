@@ -6,5 +6,6 @@
 	},
 	"debugtemplates-args-title": "Paramètres",
 	"debugtemplates-args-name": "Nom",
-	"debugtemplates-args-value": "Valeur"
+	"debugtemplates-args-value": "Valeur",
+	"debugtemplates-radio-select": "rien"
 }

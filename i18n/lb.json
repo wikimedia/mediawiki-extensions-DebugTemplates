@@ -17,8 +17,8 @@
 	"debugtemplates-error-template-revisions": "Feeler, fir d'Schabloun gëtt et keng Säiteversiounen:",
 	"debugtemplates-eval": "All bewäerten",
 	"debugtemplates-input": "Text aginn",
-	"debugtemplates-radio-select": "näischt, oder",
-	"debugtemplates-radio-eval": "bewäerten, oder",
+	"debugtemplates-radio-select": "näischt",
+	"debugtemplates-radio-eval": "bewäerten",
 	"debugtemplates-warning-template-not-a-template": "Schabloun konnt net fonnt ginn:",
 	"debugtemplates-warning-template-not-found": "Onbekannt oder agebaut Schabloun:"
 }
