@@ -1,13 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"WindEwriX"
+			"WindEwriX",
+			"Okras"
 		]
 	},
+	"debugtemplates-form": "Область ввода",
+	"debugtemplates-desc": "Простой отладчик для шаблонов",
 	"debugtemplates-args-title": "Параметры",
+	"debugtemplates-args-name": "Имя",
 	"debugtemplates-args-value": "Значение",
 	"debugtemplates-args-value-clear": "Очистить всё",
 	"debugtemplates-crumb-reset": "Очистить стек.",
+	"debugtemplates-error-button": "Очистить сообщения об ошибках",
 	"debugtemplates-error-arg-eval": "Ошибка, невозможно вычислить аргумент шаблона:",
 	"debugtemplates-error-template-page": "Ошибка, не удалось загрузить страницу шаблона:"
 }
