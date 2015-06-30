@@ -12,16 +12,20 @@ $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'DebugTemplates',
 	'author' => 'Clark Verbrugge',
-    'license-name' => 'CC BY-SA 3.0',
+	'license-name' => 'CC BY-SA 3.0',
 	'url' => '',
 	'descriptionmsg' => 'debugtemplates-desc',
 	'version' => '0.5',
 );
 
 $wgAutoloadClasses['SpecialDebugTemplates'] = __DIR__ . '/SpecialDebugTemplates.php';
+$wgAutoloadClasses['ApiDebugTemplates'] = __DIR__ . '/ApiDebugTemplates.php';
+
 $wgMessagesDirs['DebugTemplates'] = __DIR__ . "/i18n";
 $wgExtensionMessagesFiles['DebugTemplatesAlias'] = __DIR__ . '/DebugTemplates.alias.php';
+
 $wgSpecialPages['DebugTemplates'] = 'SpecialDebugTemplates';
+$wgAPIModules['expandframe'] = 'ApiDebugTemplates';
 
 $wgResourceModules['ext.debugTemplates'] = array(
 	'scripts' => array( 'ext.debugTemplates.js' ),

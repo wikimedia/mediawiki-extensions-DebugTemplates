@@ -27,8 +27,8 @@ class SpecialDebugTemplates extends SpecialPage {
 		
 		$this->setHeaders();
 		
-		if ($subpage!='') {
-			$input = $this->getPage($subpage);
+		if ( $subpage != '' ) {
+			$input = $this->getPage( $subpage );
 			$titleStr = $subpage;
 		} else {
 			$input = '';
@@ -196,9 +196,9 @@ class SpecialDebugTemplates extends SpecialPage {
 	 */
 	function getPage($t) {
 		$title = Title::newFromText($t);
-		if(is_object($title)) {
-			$r = Revision::newFromTitle($title);
-			if(is_object($r))
+		if ( is_object( $title ) ) {
+			$r = Revision::newFromTitle( $title );
+			if ( is_object( $r ) )
 				return $r->getText();
 		}
 		return "";
