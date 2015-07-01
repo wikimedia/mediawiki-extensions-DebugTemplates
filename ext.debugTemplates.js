@@ -168,15 +168,49 @@ function apiParse( t, callback ) {
  * @param {function} callback Receives 1 or 2 args with the JSON-encoded result, as per doPost.
 **/
 function apiEval( t, callback ) {
-    var args = "action=expandtemplates&format=json&prop=wikitext&includecomments=";
+    //var args = "action=expandtemplates&format=json&prop=wikitext&includecomments=";
+    var args = "action=expandframe&format=json";
     var title = document.getElementById( 'dt-title' ).value;
     if ( title ) {
         args = args + "&title=" + encodeURIComponent( title );
     }
     args = args + "&text=" + encodeURIComponent( t );
-    //debugNote("Action is "+action);
+    args = args + "&frame=" + encodeURIComponent( assembleParams() );
+    // debugNote("Action is "+args);
     var url = document.getElementById( 'dt-api' ).value;
     doPost( url, args, callback );
+}
+
+/**
+ * Determines whether a proper result was obtained from an apiEval call.
+ *
+ * Note that this assumes an "OK" result.
+ *
+ * @param {object} result The object returned from the apiEval call, JSON-decoded.
+ * @return {boolean}
+**/
+function apiEvalHasResult( result ) {
+    if ( result.expandtemplates && result.expandtemplates.wikitext !== undefined ) {
+        return true;
+    } else if ( result.expandframe && result.expandframe.result !== undefined ) {
+        return true;
+    }
+    return false;
+}
+
+/**
+ * Returns the wikitext from a valided result obtained from an apiEval call.
+ *
+ * Note that this assumes an "OK" result and that apiEvalHasResult was true.
+ *
+ * @param {object} result The object returned from the apiEval call, JSON-decoded.
+ * @return {string}
+**/
+function apiEvalGetResult( result ) {
+    if ( result.expandtemplates && result.expandtemplates.wikitext !== undefined ) {
+        return result.expandtemplates.wikitext;
+    }
+    return result.expandframe.result;
 }
 
 /**
@@ -302,6 +336,32 @@ function fader( p ) {
             p.style.padding = String(c) + 'px';
         }
     }, 50);
+}
+
+/**
+ * Gathers current parameter definitions and assembles them into a JSON string.
+ *
+ * @return {string} A JSON-encoded object
+**/
+function assembleParams() {
+    var argtable = document.getElementById( 'dt-argtable' );
+    var tbody = argtable.getElementsByTagName( 'tbody' );
+    if ( tbody ) {
+        tbody = tbody[ 0 ];
+    } else {
+        // If there is no tbody then there are no args
+        return '{}';
+    }
+    var pobj = {};
+
+    for ( var i = 0; i < tbody.rows.length; i++ ) {
+        var celln = tbody.rows[ i ].cells[ 1 ].firstChild;
+        var cellv = tbody.rows[ i ].cells[ 2 ].firstChild;
+        if ( cellv.classList.contains( 'dt-arg-set-yes' ) ) {
+            pobj[ celln.nodeValue ] = cellv.value;
+        }
+    }
+    return window.JSON.stringify( pobj );
 }
 
 /**
@@ -1155,8 +1215,8 @@ function evalText() {
         apiEval( txt, function( k, t ) {
             if ( k == "OK" ) {
                 var result = window.JSON.parse( t );
-                if ( result.expandtemplates && result.expandtemplates.wikitext !== undefined ) {
-                    evalTextDisplay( result.expandtemplates.wikitext, n );
+                if ( apiEvalHasResult( result ) ) {
+                    evalTextDisplay( apiEvalGetResult( result ), n );
                 } else {
                     debugNote( mw.message('debugtemplates-error-eval') + ' ' + t );
                     setBusy( false );
@@ -1320,8 +1380,8 @@ function paramEvalNext( i, instances, rown ) {
                         var row;
                         if ( k == "OK" ) {
                             var result = window.JSON.parse( t );
-                            if ( result.expandtemplates && result.expandtemplates.wikitext !== undefined ) {
-                                evalTextDisplay( result.expandtemplates.wikitext, n, true );
+                            if ( apiEvalHasResult( result ) ) {
+                                evalTextDisplay( apiEvalGetResult( result ), n, true );
                                 // Chain into an eval of the next one
                                 paramEvalNext( i + 1, instances, rown );
                             } else {
@@ -1418,14 +1478,13 @@ function descendInto( node ) {
                 apiEval( args[ i ], function( k, t ) {
                     if ( k == "OK" ) {
                         var result = window.JSON.parse( t );
-                        if ( result.expandtemplates &&
-                             result.expandtemplates.wikitext !== undefined ) {
-                                 args[ i ] = result.expandtemplates.wikitext;
-                                 count++;
-                                 // Once count is at max, all evals are done and we can display them
-                                 if ( count == args.length ) {
-                                     descendDisplay( astNode, args );
-                                 }
+                        if ( apiEvalHasResult( result) ) {
+                            args[ i ] = apiEvalGetResult ( result );
+                            count++;
+                            // Once count is at max, all evals are done and we can display them
+                            if ( count == args.length ) {
+                                descendDisplay( astNode, args );
+                            }
                         } else {
                             debugNote( mw.message( 'debugtemplates-error-arg-eval' ) + ' ' + t );
                             setBusy( false );
@@ -1877,8 +1936,8 @@ function evalAllButton() {
         apiEval( txt, function( k, t ) {
             if ( k == "OK" ) {
                 var result = window.JSON.parse( t );
-                if ( result.expandtemplates && result.expandtemplates.wikitext !== undefined ) {
-                    evalTextDisplay( result.expandtemplates.wikitext, n );
+                if ( apiEvalHasResult( result ) ) {
+                    evalTextDisplay( apiEvalGetResult( result ), n );
                     setBusy ( false );
                 } else {
                     debugNote( mw.message( 'debugtemplates-error-eval' ) + ' ' + t );

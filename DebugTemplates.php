@@ -13,7 +13,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'name' => 'DebugTemplates',
 	'author' => 'Clark Verbrugge',
 	'license-name' => 'CC BY-SA 3.0',
-	'url' => '',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:DebugTemplates',
 	'descriptionmsg' => 'debugtemplates-desc',
 	'version' => '0.5',
 );
