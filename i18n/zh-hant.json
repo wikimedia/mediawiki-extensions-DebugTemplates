@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416"
+		]
+	},
+	"debugtemplates-form": "輸入區",
+	"debugtemplates-args-name": "名稱",
+	"debugtemplates-args-value": "值",
+	"debugtemplates-args-set-toggle": "設定/取消設定全部",
+	"debugtemplates-args-unused": "隱藏/顯示未使用",
+	"debugtemplates-args-value-clear": "清除所有",
+	"debugtemplates-error-button": "清空錯誤訊息",
+	"debugtemplates-input": "輸入文字",
+	"debugtemplates-output": "除錯面版"
+}

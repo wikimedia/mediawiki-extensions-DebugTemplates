@@ -14,7 +14,7 @@
 	"debugtemplates-args-eval-all": "Avaliar",
 	"debugtemplates-args-set-toggle": "Definir/Indefinir todos",
 	"debugtemplates-args-value-clear": "remover todos",
-	"debugtemplates-error-button": "Limpar mensagens",
+	"debugtemplates-error-button": "Limpar mensagens de erro",
 	"debugtemplates-error-template-name": "Erro, não foi possível determinar o nome da predefinição:",
 	"debugtemplates-input": "Texto de entrada",
 	"debugtemplates-radio-select": "nada"

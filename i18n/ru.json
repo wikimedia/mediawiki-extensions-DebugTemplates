@@ -14,5 +14,6 @@
 	"debugtemplates-crumb-reset": "Очистить стек.",
 	"debugtemplates-error-button": "Очистить сообщения об ошибках",
 	"debugtemplates-error-arg-eval": "Ошибка, невозможно вычислить аргумент шаблона:",
-	"debugtemplates-error-template-page": "Ошибка, не удалось загрузить страницу шаблона:"
+	"debugtemplates-error-template-page": "Ошибка, не удалось загрузить страницу шаблона:",
+	"debugtemplates-radio-select": "ничего"
 }
