@@ -41,5 +41,8 @@
 	"debugtemplates-undo": "Auswertung rückgängig machen",
 	"debugtemplates-warning-template-not-a-template": "Vorlage konnte nicht gefunden werden:",
 	"debugtemplates-warning-template-not-found": "Unbekannte oder eingebaute Vorlage:",
-	"debugtemplates-output": "Debugging-Fenster"
+	"debugtemplates-output": "Debugging-Fenster",
+	"apihelp-expandframe-example-1": "{\"expandframe\":{\"result\":\"b\"}}",
+	"apihelp-expandframe-param-text": "Der expandierende Wikitext.",
+	"apihelp-expandframe-param-title": "Ein Seitentitel für den Kontext."
 }

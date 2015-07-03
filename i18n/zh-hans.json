@@ -40,5 +40,8 @@
 	"debugtemplates-undo": "取消评估",
 	"debugtemplates-warning-template-not-a-template": "不能找到模板：",
 	"debugtemplates-warning-template-not-found": "未知模板或内置的模板：",
-	"debugtemplates-output": "调试面版"
+	"debugtemplates-output": "调试面版",
+	"apihelp-expandframe-example-1": "{\"expandframe\":{\"result\":\"b\"}}",
+	"apihelp-expandframe-param-text": "要扩展的wiki文本。",
+	"apihelp-expandframe-param-title": "上下文的页面标题。"
 }
