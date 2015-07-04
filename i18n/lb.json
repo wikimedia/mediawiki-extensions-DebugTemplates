@@ -22,5 +22,6 @@
 	"debugtemplates-radio-eval": "bewäerten",
 	"debugtemplates-warning-template-not-a-template": "Schabloun konnt net fonnt ginn:",
 	"debugtemplates-warning-template-not-found": "Onbekannt oder agebaut Schabloun:",
-	"apihelp-expandframe-example-1": "{\"expandframe\":{\"Resultat\":\"b\"}}"
+	"apihelp-expandframe-example-1": "{\"expandframe\":{\"Resultat\":\"b\"}}",
+	"apihelp-expandframe-param-text": "De Wikitext deen expandéiert gi soll."
 }

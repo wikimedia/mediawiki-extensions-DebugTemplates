@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chrumps"
+			"Chrumps",
+			"PiotrAntosz"
 		]
 	},
 	"debugtemplates-args-title": "Parametry",
@@ -15,5 +16,6 @@
 	"debugtemplates-input": "Tekst wejściowy",
 	"debugtemplates-radio-select": "nic",
 	"debugtemplates-warning-template-not-a-template": "Nie można znaleźć szablonu:",
-	"debugtemplates-warning-template-not-found": "Nieznany lub wbudowany szablon:"
+	"debugtemplates-warning-template-not-found": "Nieznany lub wbudowany szablon:",
+	"apihelp-expandframe-param-title": "Tytuł strony dla treści."
 }
