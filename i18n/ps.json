@@ -8,6 +8,7 @@
 	"debugtemplates-args-value": "ارزښت",
 	"debugtemplates-args-value-clear": "ټول سپينول",
 	"debugtemplates-args-constructed": "بې نومه",
-	"debugtemplates-error-button": "پيغامونه سپينول",
+	"debugtemplates-error-button": "د تېروتنو پيغامونه سپينول",
+	"debugtemplates-eval": "ټول ارزول",
 	"debugtemplates-radio-select": "هېڅ څيز"
 }
