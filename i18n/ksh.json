@@ -40,5 +40,7 @@
 	"debugtemplates-undo": "Lohß Jonn!",
 	"debugtemplates-warning-template-not-a-template": "Mer künne di Schablohn nit fenge:",
 	"debugtemplates-warning-template-not-found": "Di Schablohn es onbkannt udder fass_em Wikki ennjeboud:",
-	"debugtemplates-output": "Dä Kaßte för et Fähler Söhke en Schablohne"
+	"debugtemplates-output": "Dä Kaßte för et Fähler Söhke en Schablohne",
+	"apihelp-expandframe-example-1": "{\"expandframe\":{\"erus kütt\":\"b\"}}",
+	"apihelp-expandframe-param-title": "En Övverschref för en Sigg för der Zosammehang."
 }

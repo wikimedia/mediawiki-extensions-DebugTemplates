@@ -23,5 +23,6 @@
 	"debugtemplates-warning-template-not-a-template": "Schabloun konnt net fonnt ginn:",
 	"debugtemplates-warning-template-not-found": "Onbekannt oder agebaut Schabloun:",
 	"apihelp-expandframe-example-1": "{\"expandframe\":{\"Resultat\":\"b\"}}",
-	"apihelp-expandframe-param-text": "De Wikitext deen expandéiert gi soll."
+	"apihelp-expandframe-param-text": "De Wikitext deen expandéiert gi soll.",
+	"apihelp-expandframe-param-title": "E Säitentitel fir de Kontext."
 }
