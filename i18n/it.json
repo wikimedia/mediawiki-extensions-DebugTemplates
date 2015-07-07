@@ -30,5 +30,6 @@
 	"debugtemplates-radio-eval": "valutare",
 	"debugtemplates-warning-template-not-a-template": "Sagoma non trovata:",
 	"debugtemplates-warning-template-not-found": "Sconosciuto o costruito nella sagoma",
-	"debugtemplates-output": "Debugga il vetro"
+	"debugtemplates-output": "Debugga il vetro",
+	"apihelp-expandframe-param-text": "Il testo wiki da espandere."
 }

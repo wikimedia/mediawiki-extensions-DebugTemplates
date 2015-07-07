@@ -32,6 +32,8 @@
 	"debugtemplates-error-template-revisions": "Erro: Non existen revisións de páxina para este modelo:",
 	"debugtemplates-eval": "Avaliar todos",
 	"debugtemplates-input": "Texto de entrada",
+	"debugtemplates-intro": "Esta páxina ofrécelle unha interface para depurar a expansión de modelo dalgún texto. Decátese que isto é un traballo que aínda está en desenvolvemento! Pero pode probalo escribindo \"<nowiki>{{foo|abc}}</nowiki>\" na área de entrada de texto.",
+	"debugtemplates-radio-intro": "Premendo no modelo ou parámetro comezará",
 	"debugtemplates-radio-select": "nada",
 	"debugtemplates-radio-eval": "avaliar",
 	"debugtemplates-radio-descend": "descender nela (se é un modelo).",
@@ -39,6 +41,10 @@
 	"debugtemplates-undo": "Desfacer avaliación",
 	"debugtemplates-warning-template-not-a-template": "Non se pode atopar o modelo:",
 	"debugtemplates-warning-template-not-found": "Modelo descoñecido ou modelo incorporado:",
+	"debugtemplates-output": "Panel de depuración",
+	"apihelp-expandframe-description": "Expandir modelos e parámetros en texto wiki asumindo un contexto específico.",
+	"apihelp-expandframe-example-1": "{\"expandframe\":{\"result\":\"b\"}}",
 	"apihelp-expandframe-param-text": "Texto wiki a expandir.",
+	"apihelp-expandframe-param-frame": "O contexto marco como un mapa codificado JSON entre nomes de parámetro e valores.",
 	"apihelp-expandframe-param-title": "Título de páxina para o contexto."
 }
