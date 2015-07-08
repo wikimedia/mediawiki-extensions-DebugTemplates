@@ -17,5 +17,5 @@
 	"debugtemplates-radio-select": "nic",
 	"debugtemplates-warning-template-not-a-template": "Nie można znaleźć szablonu:",
 	"debugtemplates-warning-template-not-found": "Nieznany lub wbudowany szablon:",
-	"apihelp-expandframe-param-title": "Tytuł strony dla treści."
+	"apihelp-expandframe-param-title": "Tytuł strony w kontekście."
 }
