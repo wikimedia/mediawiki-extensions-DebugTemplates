@@ -24,8 +24,8 @@
 	"debugtemplates-error-button": "Borrar mensajes de errores",
 	"debugtemplates-error-eval": "Error: no se pudo evaluar el texto de entrada",
 	"debugtemplates-error-template-name": "Error: no se pudo determinar el nombre de la plantilla.",
-	"debugtemplates-error-template-page": "Error: no se pudo cargar la página de la plantilla:",
-	"debugtemplates-error-template-revisions": "Error: no existen revisiones de página para el template:",
+	"debugtemplates-error-template-page": "Error: no se pudo cargar la página de la plantilla.",
+	"debugtemplates-error-template-revisions": "Error: no existen revisiones de página para la plantilla.",
 	"debugtemplates-eval": "Evaluar todos",
 	"debugtemplates-input": "Texto de entrada",
 	"debugtemplates-intro": "Esta página ofrece una interfaz para depurar la expansión de plantilla de algún texto. Observa que esto está en desarrollo. Pero puedes probarlo escribiendo \"<nowiki>{{foo|abc}}</nowiki>\" en el área de entrada de texto.",
@@ -35,5 +35,5 @@
 	"debugtemplates-undo": "Deshacer evaluación",
 	"debugtemplates-warning-template-not-a-template": "No se puede encontrar la plantilla:",
 	"debugtemplates-warning-template-not-found": "Plantilla desconocida o incorporada:",
-	"apihelp-expandframe-param-text": "El wikitext para ampliar."
+	"apihelp-expandframe-param-text": "El wikitexto que expandir."
 }
