@@ -20,6 +20,7 @@
 	"debugtemplates-input": "Text aginn",
 	"debugtemplates-radio-select": "näischt",
 	"debugtemplates-radio-eval": "bewäerten",
+	"debugtemplates-reset": "All Bewäertungen zrécksetzen",
 	"debugtemplates-warning-template-not-a-template": "Schabloun konnt net fonnt ginn:",
 	"debugtemplates-warning-template-not-found": "Onbekannt oder agebaut Schabloun:",
 	"apihelp-expandframe-example-1": "{\"expandframe\":{\"Resultat\":\"b\"}}",
