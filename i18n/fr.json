@@ -22,6 +22,7 @@
 	"debugtemplates-error-template-page": "Erreur: impossible de charger la page de modèle:",
 	"debugtemplates-error-template-revisions": "Erreur: il n'y a pas de révision de page pour le modèle:",
 	"debugtemplates-eval": "Tout évaluer",
+	"debugtemplates-input": "Texte entré",
 	"debugtemplates-intro": "Cette page vous donne une interface de débogue pour l'expansion du modèle avec un certain texte. Notez que c'est encore un travail en cours! Mais essayer le en tapant \"<nowiki>{{foo|abc}}</nowiki>\" dans l'entrée de la zone de texte.",
 	"debugtemplates-radio-select": "rien",
 	"debugtemplates-radio-eval": "évaluer",
