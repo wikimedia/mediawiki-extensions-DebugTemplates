@@ -32,7 +32,7 @@
 	"debugtemplates-error-template-revisions": "Error: No page revisions exist for template:",
 	"debugtemplates-eval": "Evaluate all",
 	"debugtemplates-input": "Input text",
-	"debugtemplates-intro": "This page gives you an interface for debugging the template expansion of some text.  Note that this is still a work in progress!  But try it out by typing \"<nowiki>{{foo|abc}}</nowiki>\" into the input text area.",
+	"debugtemplates-intro": "This page gives you an interface for debugging the template expansion of some text. Note that this is still a work in progress! But try it out by typing \"<nowiki>{{foo|abc}}</nowiki>\" into the input text area.",
 	"debugtemplates-radio-intro": "Clicking on template or parameter starts will do",
 	"debugtemplates-radio-select": "nothing",
 	"debugtemplates-radio-eval": "evaluate",
