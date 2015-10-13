@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Chrumps",
-			"PiotrAntosz"
+			"PiotrAntosz",
+			"Saper"
 		]
 	},
 	"debugtemplates-args-title": "Parametry",
@@ -14,6 +15,7 @@
 	"debugtemplates-error-template-name": "Błąd, nie można określić nazwy szablonu:",
 	"debugtemplates-error-template-page": "Błąd, nie udało się załadować strony szablonu:",
 	"debugtemplates-input": "Tekst wejściowy",
+	"debugtemplates-intro": "Tu można wypróbować wklejanie szablonów. Ta usługa jest jeszcze w przygotowaniu, ale można już ją wypróbować wpisując \"<nowiki>{{coś|tam}}</nowiki>\".",
 	"debugtemplates-radio-select": "nic",
 	"debugtemplates-warning-template-not-a-template": "Nie można znaleźć szablonu:",
 	"debugtemplates-warning-template-not-found": "Nieznany lub wbudowany szablon:",
