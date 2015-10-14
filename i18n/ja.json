@@ -4,5 +4,11 @@
 			"Sujiniku"
 		]
 	},
-	"debugtemplates-error-button": "エラーメッセージのクリア"
+	"debugtemplates-form": "入力エリア",
+	"debugtemplates-args-name": "名前",
+	"debugtemplates-args-value-clear": "すべてクリア",
+	"debugtemplates-error-button": "エラーメッセージのクリア",
+	"debugtemplates-error-parse": "エラー: 入力テキストをパースできません:",
+	"debugtemplates-error-template-name": "エラー: テンプレート名を決定できません:",
+	"debugtemplates-error-template-page": "エラー: テンプレートページをロードできません:"
 }
