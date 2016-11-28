@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Macofe",
-			"Ncontinanza"
+			"Ncontinanza",
+			"Fitoschido"
 		]
 	},
 	"debugtemplates": "Depuración de plantillas",
@@ -35,5 +36,6 @@
 	"debugtemplates-undo": "Deshacer evaluación",
 	"debugtemplates-warning-template-not-a-template": "No se puede encontrar la plantilla:",
 	"debugtemplates-warning-template-not-found": "Plantilla desconocida o incorporada:",
+	"debugtemplates-output": "Panel de depuración",
 	"apihelp-expandframe-param-text": "El wikitexto que expandir."
 }
