@@ -4,7 +4,8 @@
 			"Clark Verbrugge",
 			"Purodha",
 			"Robby",
-			"Hamilton Abreu"
+			"Hamilton Abreu",
+			"Umherirrender"
 		]
 	},
 	"debugtemplates": "The name of the extension's entry in Special:SpecialPages.",
@@ -44,9 +45,9 @@
 	"debugtemplates-warning-template-not-a-template": "Warning message that a template invocation is to a non-template.",
 	"debugtemplates-warning-template-not-found": "Warning message that the template was not found as a wiki page.",
 	"debugtemplates-output": "Heading for the debug output pane display.",
-	"apihelp-expandframe-description": "API help description displayed in the generic API help page.",
-	"apihelp-expandframe-example-1": "Result of the example API invocation.",
-	"apihelp-expandframe-param-text": "Description of the text parameter.",
-	"apihelp-expandframe-param-frame": "Description of the params parameter.",
-	"apihelp-expandframe-param-title": "Description of the title parameter."
+	"apihelp-expandframe-description": "{{doc-apihelp-description}}",
+	"apihelp-expandframe-example-1": "{{doc-apihelp-example|expandframe}}\nResult of the example API invocation.",
+	"apihelp-expandframe-param-text": "{{doc-apihelp-param|expandframe|text}}\nDescription of the text parameter.",
+	"apihelp-expandframe-param-frame": "{{doc-apihelp-param|expandframe|frame}}\nDescription of the params parameter.",
+	"apihelp-expandframe-param-title": "{{doc-apihelp-param|expandframe|title}}\nDescription of the title parameter."
 }
