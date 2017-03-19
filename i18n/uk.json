@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ата"
+			"Ата",
+			"Ahonc"
 		]
 	},
 	"debugtemplates": "Налагодження шаблонів",
@@ -26,9 +27,9 @@
 	"debugtemplates-error-arg-eval": "Помилка: не вдалося обрахувати аргумент шаблону:",
 	"debugtemplates-error-eval": "Помилка: не вдалося обрахувати текст вводу:",
 	"debugtemplates-error-parse": "Помилка: не вдалося виконати розбір вхідного тексту:",
-	"debugtemplates-error-template-name": "Помилка: не вдалося визначити ім'я шаблона:",
-	"debugtemplates-error-template-page": "Помилка: не вдалося завантажити сторінку шаблона:",
-	"debugtemplates-error-template-revisions": "Помилка: не існує версій сторінки шаблона:",
+	"debugtemplates-error-template-name": "Помилка: не вдалося визначити назву шаблону:",
+	"debugtemplates-error-template-page": "Помилка: не вдалося завантажити сторінку шаблону:",
+	"debugtemplates-error-template-revisions": "Помилка: не існує версій сторінки шаблону:",
 	"debugtemplates-eval": "Рахувати всі",
 	"debugtemplates-input": "Вхідний текст",
 	"debugtemplates-intro": "На цій сторінці знаходиться інтерфейс налагодження розгортання деякого тексту через шаблон. Зверніть увагу, що це все ще в розробці! Але спробуйте, ввівши «<nowiki>{{foo|abc}}</nowiki>» у полі введення тексту.",
