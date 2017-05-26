@@ -46,6 +46,7 @@
 	"debugtemplates-warning-template-not-found": "Warning message that the template was not found as a wiki page.",
 	"debugtemplates-output": "Heading for the debug output pane display.",
 	"apihelp-expandframe-description": "{{doc-apihelp-description|expandframe}}",
+	"apihelp-expandframe-summary": "{{doc-apihelp-summary|expandframe}}",
 	"apihelp-expandframe-example-1": "{{doc-apihelp-example|expandframe}}\nResult of the example API invocation.",
 	"apihelp-expandframe-param-text": "{{doc-apihelp-param|expandframe|text}}\nDescription of the text parameter.",
 	"apihelp-expandframe-param-frame": "{{doc-apihelp-param|expandframe|frame}}\nDescription of the params parameter.",

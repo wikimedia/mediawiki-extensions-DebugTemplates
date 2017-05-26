@@ -43,6 +43,7 @@
 	"debugtemplates-warning-template-not-found": "Unknown template or built-in template:",
 	"debugtemplates-output": "Debugging pane",
 	"apihelp-expandframe-description": "Expand templates and parameters in wikitext assuming a specific frame context.",
+	"apihelp-expandframe-summary": "Expand templates and parameters in wikitext assuming a specific frame context.",
 	"apihelp-expandframe-example-1": "{\"expandframe\":{\"result\":\"b\"}}",
 	"apihelp-expandframe-param-text": "The wikitext to expand.",
 	"apihelp-expandframe-param-frame": "The frame context as a JSON-encoded map between parameter names and values.",
