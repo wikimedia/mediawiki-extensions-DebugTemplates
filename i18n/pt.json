@@ -44,6 +44,7 @@
 	"debugtemplates-warning-template-not-found": "Predefinição desconhecida ou que não é uma página da wiki:",
 	"debugtemplates-output": "Painel de despiste de erros",
 	"apihelp-expandframe-description": "Expandir predefinições e parâmetros em forma de notação wiki, presumindo um contexto específico.",
+	"apihelp-expandframe-summary": "Expandir predefinições e parâmetros em forma de notação wiki, presumindo um contexto específico.",
 	"apihelp-expandframe-param-text": "A notação wiki a ser expandida.",
 	"apihelp-expandframe-param-frame": "O contexto para uma expansão, na forma de um mapeamento entre os nomes e os valores dos parâmetros, em formato JSON.",
 	"apihelp-expandframe-param-title": "Um título de página, como contexto de expansão."

@@ -43,6 +43,7 @@
 	"debugtemplates-warning-template-not-found": "Modelo descoñecido ou modelo incorporado:",
 	"debugtemplates-output": "Panel de depuración",
 	"apihelp-expandframe-description": "Expandir modelos e parámetros en texto wiki asumindo un contexto específico.",
+	"apihelp-expandframe-summary": "Expandir modelos e parámetros en texto wiki asumindo un contexto específico.",
 	"apihelp-expandframe-example-1": "{\"expandframe\":{\"result\":\"b\"}}",
 	"apihelp-expandframe-param-text": "Texto wiki a expandir.",
 	"apihelp-expandframe-param-frame": "O contexto marco como un mapa codificado JSON entre nomes de parámetro e valores.",

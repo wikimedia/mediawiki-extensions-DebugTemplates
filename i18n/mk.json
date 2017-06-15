@@ -42,6 +42,7 @@
 	"debugtemplates-warning-template-not-found": "Непознат или вграден шаблон:",
 	"debugtemplates-output": "Прозорец за отстранување грешки",
 	"apihelp-expandframe-description": "Прошири ги шаблоните и параметрите во викитекстот, претпоставувајќи одредена рамка за контекст.",
+	"apihelp-expandframe-summary": "Прошири ги шаблоните и параметрите во викитекстот, претпоставувајќи одредена рамка за контекст.",
 	"apihelp-expandframe-example-1": "{\"expandframe\":{\"result\":\"b\"}}",
 	"apihelp-expandframe-param-text": "Викитекстот за проширување.",
 	"apihelp-expandframe-param-frame": "Рамката за контекст има пресликување кодирано во JSON помеѓу називите на параметрите и нивните вредности.",
