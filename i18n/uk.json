@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Ата",
-			"Ahonc"
+			"Ahonc",
+			"Piramidion"
 		]
 	},
 	"debugtemplates": "Налагодження шаблонів",
@@ -43,6 +44,7 @@
 	"debugtemplates-warning-template-not-found": "Невідомий шаблон або вбудований шаблон:",
 	"debugtemplates-output": "Панель налагодження",
 	"apihelp-expandframe-description": "Розгорнути шаблони і параметри вікітекстом, припускаючи конкретні рамковий контекст.",
+	"apihelp-expandframe-summary": "Розгорнути шаблони і параметри вікітекстом, припускаючи конкретні рамковий контекст.",
 	"apihelp-expandframe-param-text": "Вікітекст для розкриття.",
 	"apihelp-expandframe-param-frame": "Рамковий контекст як JSON-кодована мапа між назвами і значеннями параметрів.",
 	"apihelp-expandframe-param-title": "Заголовок сторінки для контексту."
