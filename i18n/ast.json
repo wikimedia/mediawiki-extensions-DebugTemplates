@@ -42,6 +42,7 @@
 	"debugtemplates-warning-template-not-found": "Plantía desconocida o integrada:",
 	"debugtemplates-output": "Panel de depuración",
 	"apihelp-expandframe-description": "Espander les plantíes y parámetros en testu wiki asumiendo un contestu específicu.",
+	"apihelp-expandframe-summary": "Espander les plantíes y parámetros en testu wiki asumiendo un contestu específicu.",
 	"apihelp-expandframe-param-text": "El testu wiki a espander.",
 	"apihelp-expandframe-param-frame": "El contestu del marcu como mapa codificáu en JSON ente nomes de parámetros y valores.",
 	"apihelp-expandframe-param-title": "Un títulu de páxina pal contestu."
