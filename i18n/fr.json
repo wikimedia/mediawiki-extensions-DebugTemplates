@@ -44,6 +44,7 @@
 	"debugtemplates-warning-template-not-found": "Modèle inconnu ou modèle intégré:",
 	"debugtemplates-output": "Volet de débogage",
 	"apihelp-expandframe-description": "Développer des modèles et des paramètres en code wiki en supposant un certain cadre contextuel.",
+	"apihelp-expandframe-summary": "Développer les modèles et les paramètres dans le texte wiki dans un contexte de conception spécifique.",
 	"apihelp-expandframe-param-text": "Le wikitexte à développer.",
 	"apihelp-expandframe-param-frame": "Le contexte du cadre au format JSON associe les noms de paramètres aux valeurs.",
 	"apihelp-expandframe-param-title": "Un titre de page pour le contexte."
