@@ -64,11 +64,11 @@ class ApiDebugTemplates extends ApiBase {
 	/**
 	 * Provide an example of usage
 	 *
-	 * @return object Array showing an example use and its result
+	 * @return object Array showing an example use and help text
 	 */
 	public function getExamplesMessages() {
 		return array(
-			'action=expandframe&text={{{a}}}&frame={"a":"b"}&format=json'
+			'action=expandframe&text={{{a}}}&frame={"a":"b"}'
 			=> 'apihelp-expandframe-example-1'
 		);
 	}
