@@ -42,7 +42,8 @@
 	"debugtemplates-warning-template-not-found": "未知模板或内置的模板：",
 	"debugtemplates-output": "调试面版",
 	"apihelp-expandframe-description": "在假设一个特定的框架环境的wiki文本中展开模板和参数。",
-	"apihelp-expandframe-example-1": "{\"expandframe\":{\"result\":\"b\"}}",
+	"apihelp-expandframe-summary": "在假设一个特定的框架环境的wiki文本中展开模板和参数。",
+	"apihelp-expandframe-example-1": "使用定义的框架环境解析wiki文本<kbd><nowiki>{{{a}}}</nowiki></kbd>。",
 	"apihelp-expandframe-param-text": "要扩展的wiki文本。",
 	"apihelp-expandframe-param-frame": "在参数名称和值之间映射的，作为JSON编码的框架环境。",
 	"apihelp-expandframe-param-title": "上下文的页面标题。"
