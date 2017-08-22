@@ -23,7 +23,7 @@
 	"debugtemplates-reset": "All Bewäertungen zrécksetzen",
 	"debugtemplates-warning-template-not-a-template": "Schabloun konnt net fonnt ginn:",
 	"debugtemplates-warning-template-not-found": "Onbekannt oder agebaut Schabloun:",
-	"apihelp-expandframe-example-1": "{\"expandframe\":{\"Resultat\":\"b\"}}",
+	"apihelp-expandframe-example-1": "Parst de Wikitext <kbd><nowiki>{{{a}}}</nowiki></kbd> an engem definéierte Kontext.",
 	"apihelp-expandframe-param-text": "De Wikitext deen expandéiert gi soll.",
 	"apihelp-expandframe-param-title": "E Säitentitel fir de Kontext."
 }
