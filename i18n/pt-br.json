@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Felipe L. Ewald"
+			"Felipe L. Ewald",
+			"Eduardo Addad de Oliveira"
 		]
 	},
+	"debugtemplates-form": "Área de introdução de dados",
+	"debugtemplates-desc": "Interface simples para despiste de erros em predefinições",
 	"debugtemplates-args-name": "Nome"
 }
