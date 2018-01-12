@@ -44,7 +44,7 @@
 	"debugtemplates-output": "Panel de depuración",
 	"apihelp-expandframe-description": "Expandir modelos e parámetros en texto wiki asumindo un contexto específico.",
 	"apihelp-expandframe-summary": "Expandir modelos e parámetros en texto wiki asumindo un contexto específico.",
-	"apihelp-expandframe-example-1": "{\"expandframe\":{\"result\":\"b\"}}",
+	"apihelp-expandframe-example-1": "Analizar o wikitexto <kbd><nowiki>{{{a}}}</nowiki></kbd> co contexto definido na trama.",
 	"apihelp-expandframe-param-text": "Texto wiki a expandir.",
 	"apihelp-expandframe-param-frame": "O contexto marco como un mapa codificado JSON entre nomes de parámetro e valores.",
 	"apihelp-expandframe-param-title": "Título de páxina para o contexto."
