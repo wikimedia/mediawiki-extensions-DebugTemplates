@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Cwlin0416"
+			"Cwlin0416",
+			"Liuxinyu970226"
 		]
 	},
 	"debugtemplates-form": "輸入區",
+	"debugtemplates-args-title": "參數",
 	"debugtemplates-args-name": "名稱",
 	"debugtemplates-args-value": "值",
 	"debugtemplates-args-set-toggle": "設定/取消設定全部",
