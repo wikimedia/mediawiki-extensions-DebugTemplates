@@ -1,52 +1,15 @@
 <?php
-# Alert the user that this is not a valid access point to MediaWiki if they try to access the special pages file directly.
-if ( !defined( 'MEDIAWIKI' ) ) {
-	echo <<<EOT
-To install my extension, put the following line in LocalSettings.php:
-require_once( "\$IP/extensions/DebugTemplates/DebugTemplates.php" );
-EOT;
-	exit( 1 );
+
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'DebugTemplates' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['DebugTemplates'] = __DIR__ . '/i18n';
+	wfWarn(
+		'Deprecated PHP entry point used for the DebugTemplates extension. ' .
+		'Please use wfLoadExtension instead, ' .
+		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
+	);
+	return;
+} else {
+	die( 'This version of the DebugTemplates extension requires MediaWiki 1.29+' );
 }
-
-$wgExtensionCredits['specialpage'][] = array(
-	'path' => __FILE__,
-	'name' => 'DebugTemplates',
-	'author' => 'Clark Verbrugge',
-	'license-name' => 'CC-BY-SA-3.0',
-	'url' => 'https://www.mediawiki.org/wiki/Extension:DebugTemplates',
-	'descriptionmsg' => 'debugtemplates-desc',
-	'version' => '0.5',
-);
-
-$wgAutoloadClasses['SpecialDebugTemplates'] = __DIR__ . '/SpecialDebugTemplates.php';
-$wgAutoloadClasses['ApiDebugTemplates'] = __DIR__ . '/ApiDebugTemplates.php';
-
-$wgMessagesDirs['DebugTemplates'] = __DIR__ . "/i18n";
-$wgExtensionMessagesFiles['DebugTemplatesAlias'] = __DIR__ . '/DebugTemplates.alias.php';
-
-$wgSpecialPages['DebugTemplates'] = 'SpecialDebugTemplates';
-$wgAPIModules['expandframe'] = 'ApiDebugTemplates';
-
-$wgResourceModules['ext.debugTemplates'] = array(
-	'scripts' => array( 'ext.debugTemplates.js' ),
-	'styles' => 'ext.debugTemplates.css',
-
-	// error and warning messages used in the javascript
-	'messages' => array( 'debugtemplates-error-parse',
-		'debugtemplates-error-button',
-		'debugtemplates-error-eval',
-		'debugtemplates-error-arg-eval',
-		'debugtemplates-warning-template-not-a-template',
-		'debugtemplates-warning-template-not-found',
-		'debugtemplates-error-template-name',
-		'debugtemplates-error-template-revisions',
-		'debugtemplates-error-template-page',
-		'debugtemplates-args-constructed',
-		'debugtemplates-args-eval-all' ),
-
-	// no dependencies
-	'dependencies' => array(  ),
-
-	'localBasePath' => __DIR__,
-	'remoteExtPath' => 'DebugTemplates'
-);
