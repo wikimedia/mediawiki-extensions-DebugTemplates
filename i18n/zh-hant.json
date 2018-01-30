@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Cwlin0416",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Kly"
 		]
 	},
+	"debugtemplates": "除錯模板",
 	"debugtemplates-form": "輸入區",
 	"debugtemplates-args-title": "參數",
 	"debugtemplates-args-name": "名稱",
