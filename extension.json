@@ -6,6 +6,9 @@
 	"descriptionmsg": "debugtemplates-desc",
 	"license-name": "CC-BY-SA-3.0",
 	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
 	"APIModules": {
 		"expandframe": "ApiDebugTemplates"
 	},
