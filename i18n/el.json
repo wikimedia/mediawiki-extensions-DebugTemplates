@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"debugtemplates": "Αποσφαλμάτωση προτύπων",
+	"debugtemplates-args-title": "Παράμετροι",
+	"debugtemplates-args-name": "Όνομα",
+	"debugtemplates-args-set": "Ορισμένο;",
+	"debugtemplates-args-value": "Τιμή",
+	"debugtemplates-args-value-clear": "Καθάρισμα όλων",
+	"debugtemplates-args-constructed": "χωρίς όνομα"
+}
