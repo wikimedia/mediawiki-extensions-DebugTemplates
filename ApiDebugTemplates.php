@@ -10,20 +10,20 @@
 class ApiDebugTemplates extends ApiBase {
 	public function execute() {
 		global $wgParser;
-		
+
         $params = $this->extractRequestParams();
 
 		$title_obj = Title::newFromText( $params[ 'title' ] );
-		
+
 		if ( !$title_obj || $title_obj->isExternal() ) {
-			$this->dieUsageMsg( array( 'invalidtitle', $params[ 'title' ] ) );
+			$this->dieWithError( [ 'apierror-invalidtitle', wfEscapeWikiText( $params['title'] ) ] );
 		}
-		
+
 		// The frame field is a JSON-encoded object
 		$frame = FormatJson::parse( $params[ 'frame' ], FormatJson::FORCE_ASSOC );
-		
+
 		$result = $this->getResult();
-		
+
 		if ( $frame->isGood() ) {
 			$options = ParserOptions::newFromContext( $this->getContext() );
 			$parsed = $wgParser->preprocess( $params[ 'text' ],
