@@ -34,6 +34,7 @@
 	"debugtemplates-radio-intro": "點擊模板或參數來開始",
 	"debugtemplates-radio-select": "不作任何事",
 	"debugtemplates-radio-eval": "評估",
+	"debugtemplates-radio-descend": "展開至此（如果是一個模板）。",
 	"debugtemplates-reset": "取消所有評估",
 	"debugtemplates-undo": "取消評估",
 	"debugtemplates-warning-template-not-a-template": "找不到模板：",
