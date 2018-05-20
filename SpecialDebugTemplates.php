@@ -198,8 +198,9 @@ class SpecialDebugTemplates extends SpecialPage {
 		$title = Title::newFromText($t);
 		if ( is_object( $title ) ) {
 			$r = Revision::newFromTitle( $title );
-			if ( is_object( $r ) )
+			if ( is_object( $r ) ) {
 				return ContentHandler::getContentText( $r->getContent() );
+			}
 		}
 		return "";
 	}
