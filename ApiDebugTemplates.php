@@ -53,7 +53,7 @@ class ApiDebugTemplates extends ApiBase {
 				'frame' => [
 					ApiBase::PARAM_TYPE => 'string',
 					ApiBase::PARAM_DFLT => '{}'
-					//					ApiBase::PARAM_REQUIRED => true
+					// ApiBase::PARAM_REQUIRED => true
 				],
 				'title' => [
 					ApiBase::PARAM_DFLT => 'API'
