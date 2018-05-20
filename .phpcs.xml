@@ -4,7 +4,6 @@
 		<exclude name="Generic.Files.LineLength.TooLong" />
 		<exclude name="MediaWiki.VariableAnalysis.UnusedGlobalVariables.UnusedGlobal$wgParser" />
 		<exclude name="Squiz.Scope.MethodScope.Missing" />
-		<exclude name="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine" />
 	</rule>
 	<file>.</file>
 	<arg name="extensions" value="php,php5,inc"/>

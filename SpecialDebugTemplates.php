@@ -10,11 +10,11 @@ if ( !defined( 'MEDIAWIKI' ) ) {
  * @Licence CC BY-SA 3.0
  */
 class SpecialDebugTemplates extends SpecialPage {
-	
+
 	function __construct() {
 		parent::__construct( 'debugtemplates' );
 	}
-	
+
 	/**
 	 * Construct and return the special page.
 	 *
@@ -22,11 +22,11 @@ class SpecialDebugTemplates extends SpecialPage {
 	 */
 	function execute( $subpage ) {
 		global $wgParser,$wgOut;
-		
+
 		$wgOut->addModules( 'ext.debugTemplates' );
-		
+
 		$this->setHeaders();
-		
+
 		if ( $subpage != '' ) {
 			$input = $this->getPage( $subpage );
 			$titleStr = $subpage;
@@ -34,12 +34,12 @@ class SpecialDebugTemplates extends SpecialPage {
 			$input = '';
 			$titleStr = '';
 		}
-		
+
 		$out = $this->getOutput();
 		$out->addWikiMsg( 'debugtemplates-intro' );
 		$out->addHTML( $this->makeForm( $titleStr, $input ) );
 	}
-	
+
 	/**
 	 * Generate the overall page structure.  This is partly a form to enter the starting text etc, and
 	 * partly some elements afterward that provide the interactive debugging environment.
@@ -53,11 +53,11 @@ class SpecialDebugTemplates extends SpecialPage {
 		$self = $this->getPageTitle();
 		$request = $this->getRequest();
 		$user = $this->getUser();
-		
+
 		$form = "<div><fieldset><legend>" . $this->msg( 'debugtemplates-form' )->escaped() . "</legend>\n";
-		
+
 		$form .= '<div style="display:inline-block;width:40%;">';
-		
+
 		// Create a field holding the url for api.php calls.  This is set to readonly, but still
 		// presented and even used so it could be changed if ever cross-site scripting is possible.
 		$form .= '<p>' . Xml::inputLabel(
@@ -68,7 +68,7 @@ class SpecialDebugTemplates extends SpecialPage {
 			$wgServer . $wgScriptPath . '/api.php',
 			[ 'autofocus' => '', 'class' => 'mw-ui-input-inline', 'style' => 'width:100%;', 'readonly' => 'readonly' ]
 		) . '</p>';
-		
+
 		// Entry of the context title of the page that will be debugged.
 		$form .= '<p>' . Xml::inputLabel(
 			$this->msg( 'debugtemplates-title' )->plain(),
@@ -78,7 +78,7 @@ class SpecialDebugTemplates extends SpecialPage {
 			$title,
 			[ 'autofocus' => '', 'class' => 'mw-ui-input-inline', 'style' => 'width:100%;' ]
 		) . '</p></div>';
-		
+
 		// The main input area for entering and editing the text being debugged.
 		$form .= '<div style="display:inline-block;width:70%;"><h2>'
 			. $this->msg( 'debugtemplates-input' )->text() . '</h2>';
@@ -89,29 +89,29 @@ class SpecialDebugTemplates extends SpecialPage {
 			15,
 			[ 'id' => 'dt-input' ]
 		) . '</div>';
-		
+
 		// Next to the editable input is an array of input parameters, along with some buttons for operating on them.
 		$form .= $this->makeArgTable();
-		
+
 		// Ok that's everything in the first main div of input data.
 		$form .= "</fieldset></div>";
-		
+
 		// Make an error-message output pane.
 		$form .= '<span class="dt-error" id="dt-error"></span>';
-		
+
 		// The interactive debug area starts with a few buttons that do and configure things.
 		$form .= "<h2>" . $this->msg( 'debugtemplates-output' )->escaped() . "</h2>\n";
 		$form .= $this->makeDebugButtons();
-		
+
 		// Next comes the stack trace.
 		$form .= $this->makeBreadCrumbs();
-		
+
 		// Finally, the actual interactive main debug pane.
 		$form .= $this->makeDebugPane();
-		
+
 		return $form;
 	}
-	
+
 	/**
 	 * Generate the interactive debug pane itself.
 	 *
@@ -184,7 +184,7 @@ class SpecialDebugTemplates extends SpecialPage {
 			. $this->msg( 'debugtemplates-crumb-title' )->text()
 			. '"></div>';
 	}
-	
+
 	/**
 	 * Get a page content.  Used to initialize the input if a subpage is provided.
 	 *
@@ -201,7 +201,7 @@ class SpecialDebugTemplates extends SpecialPage {
 		}
 		return "";
 	}
-	
+
 	/**
 	 * Returns the special page group name.  It should be in the same place as the existing
 	 * ExpandTemplates special page.

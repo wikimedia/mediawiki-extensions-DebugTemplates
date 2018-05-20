@@ -38,7 +38,7 @@ class ApiDebugTemplates extends ApiBase {
 		}
 		return true;
 	}
-	
+
 	/**
 	 * Force the existence of our parameters.
 	 *
@@ -60,7 +60,7 @@ class ApiDebugTemplates extends ApiBase {
 				],
 			] );
 	}
-	
+
 	/**
 	 * Provide an example of usage
 	 *
