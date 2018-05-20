@@ -11,7 +11,7 @@ class ApiDebugTemplates extends ApiBase {
 	public function execute() {
 		global $wgParser;
 
-        $params = $this->extractRequestParams();
+		$params = $this->extractRequestParams();
 
 		$title_obj = Title::newFromText( $params[ 'title' ] );
 
