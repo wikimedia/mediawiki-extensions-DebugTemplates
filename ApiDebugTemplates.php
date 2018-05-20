@@ -32,7 +32,7 @@ class ApiDebugTemplates extends ApiBase {
 				null,
 				$frame->getValue() );
 			$this->getResult()->addValue( null, $this->getModuleName(),
-				array ( 'result' => $parsed ) );
+				 [ 'result' => $parsed ] );
 		} else {
 			$this->getErrorFormatter()->addMessagesFromStatus( $this->getModuleName(), $frame );
 		}
@@ -45,20 +45,20 @@ class ApiDebugTemplates extends ApiBase {
 	 * @return object Array of parameter to arrays
 	 */
 	public function getAllowedParams() {
-		return array_merge( parent::getAllowedParams(), array(
-				'text' => array (
+		return array_merge( parent::getAllowedParams(), [
+				'text' => [
 					ApiBase::PARAM_TYPE => 'string',
 					ApiBase::PARAM_REQUIRED => true
-				),
-				'frame' => array (
+				],
+				'frame' => [
 					ApiBase::PARAM_TYPE => 'string',
 					ApiBase::PARAM_DFLT => '{}'
 					//					ApiBase::PARAM_REQUIRED => true
-				),
-				'title' => array (
+				],
+				'title' => [
 					ApiBase::PARAM_DFLT => 'API'
-				),
-			) );
+				],
+			] );
 	}
 	
 	/**
@@ -67,9 +67,9 @@ class ApiDebugTemplates extends ApiBase {
 	 * @return object Array showing an example use and help text
 	 */
 	public function getExamplesMessages() {
-		return array(
+		return [
 			'action=expandframe&text={{{a}}}&frame={"a":"b"}'
 			=> 'apihelp-expandframe-example-1'
-		);
+		];
 	}
 }

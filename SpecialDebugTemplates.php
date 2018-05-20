@@ -66,7 +66,7 @@ class SpecialDebugTemplates extends SpecialPage {
 			'dt-api',
 			60,
 			$wgServer . $wgScriptPath . '/api.php',
-			array( 'autofocus' => '', 'class' => 'mw-ui-input-inline', 'style' => 'width:100%;', 'readonly' => 'readonly')
+			[ 'autofocus' => '', 'class' => 'mw-ui-input-inline', 'style' => 'width:100%;', 'readonly' => 'readonly']
 		) . '</p>';
 		
 		// Entry of the context title of the page that will be debugged.
@@ -76,7 +76,7 @@ class SpecialDebugTemplates extends SpecialPage {
 			'dt-title',
 			60,
 			$title,
-			array( 'autofocus' => '', 'class' => 'mw-ui-input-inline', 'style' => 'width:100%;')
+			[ 'autofocus' => '', 'class' => 'mw-ui-input-inline', 'style' => 'width:100%;']
 		) . '</p></div>';
 		
 		// The main input area for entering and editing the text being debugged.
@@ -87,7 +87,7 @@ class SpecialDebugTemplates extends SpecialPage {
 			$input,
 			1,
 			15,
-			array( 'id' => 'dt-input')
+			[ 'id' => 'dt-input']
 		) . '</div>';
 		
 		// Next to the editable input is an array of input parameters, along with some buttons for operating on them.
