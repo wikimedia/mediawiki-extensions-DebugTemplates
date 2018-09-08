@@ -18,7 +18,7 @@
 	"debugtemplates-args-value": "Valor",
 	"debugtemplates-args-eval-all": "Avaliar",
 	"debugtemplates-args-set-toggle": "Definir/Borrar todos",
-	"debugtemplates-args-unused": "Ocultar/mostrar os que non se usan",
+	"debugtemplates-args-unused": "Ocultar/amosar os que non se usan",
 	"debugtemplates-args-value-clear": "Borrar todos",
 	"debugtemplates-args-constructed": "sen nome",
 	"debugtemplates-crumb-title": "Pila de modelos nos que descendeu. Pode premer nunha entrada para volver a ese estado.",
