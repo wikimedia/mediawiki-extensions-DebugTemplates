@@ -5,11 +5,10 @@
  * @file
  * @ingroup Extensions
  */
-// @codingStandardsIgnoreFile
 
-$specialPageAliases = array();
+$specialPageAliases = [];
 
 /** English (English) */
-$specialPageAliases['en'] = array(
-	'DebugTemplates' => array( 'DebugTemplates', 'Debug Templates' ),
-);
+$specialPageAliases['en'] = [
+	'DebugTemplates' => [ 'DebugTemplates', 'Debug Templates' ],
+];
