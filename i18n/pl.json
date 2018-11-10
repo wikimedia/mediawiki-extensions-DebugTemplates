@@ -3,9 +3,15 @@
 		"authors": [
 			"Chrumps",
 			"PiotrAntosz",
-			"Saper"
+			"Saper",
+			"Railfail536"
 		]
 	},
+	"debugtemplates": "Debuger szablonów",
+	"debugtemplates-form": "Formularz wprowadzania",
+	"debugtemplates-desc": "Proste narzędzie do debugowania szablonów",
+	"debugtemplates-api": "Adres URL do zapytań do API",
+	"debugtemplates-title": "Nazwa strony (opcjonalne)",
 	"debugtemplates-args-title": "Parametry",
 	"debugtemplates-args-name": "Nazwa",
 	"debugtemplates-args-value": "Wartość",
@@ -15,7 +21,7 @@
 	"debugtemplates-error-template-name": "Błąd, nie można określić nazwy szablonu:",
 	"debugtemplates-error-template-page": "Błąd, nie udało się załadować strony szablonu:",
 	"debugtemplates-input": "Tekst wejściowy",
-	"debugtemplates-intro": "Tu można wypróbować wklejanie szablonów. Ta usługa jest jeszcze w przygotowaniu, ale można już ją wypróbować wpisując \"<nowiki>{{coś|tam}}</nowiki>\".",
+	"debugtemplates-intro": "Ta strona zawiera interfejs służący do debugowania i testowania szablonów. Zauważ, że ta funkcja jest wciąż w fazie rozwoju, ale możesz ją wypróbować wpisując „<nowiki>{{Coś|tam}}</nowiki>” w polu wprowadzania tekstu.",
 	"debugtemplates-radio-select": "nic",
 	"debugtemplates-warning-template-not-a-template": "Nie można znaleźć szablonu:",
 	"debugtemplates-warning-template-not-found": "Nieznany lub wbudowany szablon:",
