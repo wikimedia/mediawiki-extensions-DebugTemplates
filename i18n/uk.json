@@ -43,9 +43,10 @@
 	"debugtemplates-warning-template-not-a-template": "Не вдалося знайти шаблон:",
 	"debugtemplates-warning-template-not-found": "Невідомий шаблон або вбудований шаблон:",
 	"debugtemplates-output": "Панель налагодження",
-	"apihelp-expandframe-description": "Розгорнути шаблони і параметри вікітекстом, припускаючи конкретні рамковий контекст.",
-	"apihelp-expandframe-summary": "Розгорнути шаблони і параметри вікітекстом, припускаючи конкретні рамковий контекст.",
+	"apihelp-expandframe-description": "Розгорнути шаблони і параметри у вікітексті, припускаючи конкретний контекст фрейма.",
+	"apihelp-expandframe-summary": "Розгорнути шаблони і параметри у вікітексті, припускаючи конкретний контекст фрейма.",
+	"apihelp-expandframe-example-1": "Парсити вікітекст <kbd><nowiki>{{{a}}}</nowiki></kbd> із визначеним контекстом фрейма.",
 	"apihelp-expandframe-param-text": "Вікітекст для розкриття.",
-	"apihelp-expandframe-param-frame": "Рамковий контекст як JSON-кодована мапа між назвами і значеннями параметрів.",
+	"apihelp-expandframe-param-frame": "Контекст фрейма як JSON-кодована мапа між назвами і значеннями параметрів.",
 	"apihelp-expandframe-param-title": "Заголовок сторінки для контексту."
 }
