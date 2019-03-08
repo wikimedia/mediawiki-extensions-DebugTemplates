@@ -135,7 +135,7 @@ function doPost( url, params, callback ) {
             if ( x.status == 200 ) {
                 callback( "OK", x.responseText );
             } else {
-                callback( "An error has occured making the request" );
+                callback( "An error has occurred making the request" );
             }
         }
     };
