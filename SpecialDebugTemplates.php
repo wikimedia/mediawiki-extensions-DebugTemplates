@@ -12,7 +12,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 class SpecialDebugTemplates extends SpecialPage {
 
 	function __construct() {
-		parent::__construct( 'debugtemplates' );
+		parent::__construct( 'DebugTemplates' );
 	}
 
 	/**
