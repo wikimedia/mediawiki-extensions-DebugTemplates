@@ -8,6 +8,7 @@
 	},
 	"debugtemplates-form": "입력 공간",
 	"debugtemplates-title": "문서 제목 (선택적, 문맥을 위해서만)",
+	"debugtemplates-args-title": "변수",
 	"debugtemplates-args-name": "이름",
 	"debugtemplates-args-value": "값",
 	"debugtemplates-args-eval-all": "평가",
