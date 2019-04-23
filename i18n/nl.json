@@ -10,5 +10,7 @@
 	"debugtemplates-args-name": "Naam",
 	"debugtemplates-args-value": "Waarde",
 	"debugtemplates-args-constructed": "geen naam",
-	"debugtemplates-radio-select": "niets"
+	"debugtemplates-eval": "Alles evalueren",
+	"debugtemplates-radio-select": "niets",
+	"debugtemplates-radio-eval": "evalueren"
 }
