@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kumkumuk"
+			"Kumkumuk",
+			"Mirzali"
 		]
 	},
-	"debugtemplates-args-title": "Parametrey",
+	"debugtemplates-args-title": "Parametreyi",
 	"debugtemplates-args-name": "Name",
 	"debugtemplates-args-eval": "Erc pêro",
 	"debugtemplates-args-set": "Saz?",
