@@ -1,7 +1,4 @@
 <?php
-if ( !defined( 'MEDIAWIKI' ) ) {
-	die( "This is not a valid access point.\n" );
-}
 
 /*
  * This is the code that creates the special page.
