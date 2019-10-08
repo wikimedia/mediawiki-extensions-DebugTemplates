@@ -3,13 +3,14 @@
 		"authors": [
 			"WindEwriX",
 			"Okras",
-			"Facenapalm"
+			"Facenapalm",
+			"Movses"
 		]
 	},
 	"debugtemplates": "Отладка шаблонов",
 	"debugtemplates-form": "Область ввода",
 	"debugtemplates-desc": "Простой отладчик для шаблонов",
-	"debugtemplates-summary": "Добавляет [[special:DebugTemplates|специальную страницу]], предоставляющая интерфейс к расширению отладки шаблона.",
+	"debugtemplates-summary": "Добавляет [[special:DebugTemplates|специальную страницу]], предоставляющую интерфейс к расширению отладки шаблона.",
 	"debugtemplates-api": "Ссылка для вызова API (только для информации)",
 	"debugtemplates-title": "Название страницы (необязательно, только для содержимого)",
 	"debugtemplates-args-title": "Параметры",
@@ -18,7 +19,7 @@
 	"debugtemplates-args-set": "Задано?",
 	"debugtemplates-args-value": "Значение",
 	"debugtemplates-args-eval-all": "Вычислить",
-	"debugtemplates-args-set-toggle": "Задать/убрать всё",
+	"debugtemplates-args-set-toggle": "Задать/убрать все",
 	"debugtemplates-args-unused": "Показать/скрыть неиспользованное",
 	"debugtemplates-args-value-clear": "Очистить всё",
 	"debugtemplates-args-constructed": "без имени",
@@ -45,7 +46,8 @@
 	"debugtemplates-output": "Панель отладки",
 	"apihelp-expandframe-description": "Раскрытие шаблонов и параметров в вики-тексте с учётом указанного содержимого фрейма.",
 	"apihelp-expandframe-summary": "Раскрытие шаблонов и параметров в вики-тексте с учётом указанного содержимого фрейма.",
+	"apihelp-expandframe-example-1": "Распарсить викитекст <kbd><nowiki>{{{a}}}</nowiki></kbd> с определённым контексом фрейма.",
 	"apihelp-expandframe-param-text": "Раскрываемый вики-текст.",
-	"apihelp-expandframe-param-frame": "Содержимое фрейма в виде закодированного в JSON отображения имён параметров в значения.",
-	"apihelp-expandframe-param-title": "Заголовк страницы для содержимого."
+	"apihelp-expandframe-param-frame": "Содержимое фрейма в виде закодированного в JSON отображения имён параметров и значений.",
+	"apihelp-expandframe-param-title": "Название страницы для содержимого."
 }
