@@ -11,5 +11,6 @@
 	"debugtemplates-args-name": "שם",
 	"debugtemplates-args-set": "מוגדר?",
 	"debugtemplates-args-value": "ערך",
-	"debugtemplates-radio-select": "כלום"
+	"debugtemplates-radio-select": "כלום",
+	"debugtemplates-warning-template-not-a-template": "לא נמצאה התבנית:"
 }
