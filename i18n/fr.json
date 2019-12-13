@@ -3,7 +3,8 @@
 		"authors": [
 			"Macofe",
 			"Wladek92",
-			"Gomoko"
+			"Gomoko",
+			"Thibaut120094"
 		]
 	},
 	"debugtemplates": "Déboguer les modèles",
@@ -15,7 +16,7 @@
 	"debugtemplates-args-title": "Paramètres",
 	"debugtemplates-args-name": "Nom",
 	"debugtemplates-args-eval": "Eval tous",
-	"debugtemplates-args-set": "Fixé ?",
+	"debugtemplates-args-set": "Fixé ?",
 	"debugtemplates-args-value": "Valeur",
 	"debugtemplates-args-eval-all": "Éval",
 	"debugtemplates-args-set-toggle": "Définir/annuler tout",
