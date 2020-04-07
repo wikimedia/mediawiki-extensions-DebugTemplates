@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"WindEwriX",
-			"Okras",
 			"Facenapalm",
-			"Movses"
+			"Movses",
+			"Okras",
+			"WindEwriX"
 		]
 	},
 	"debugtemplates": "Отладка шаблонов",

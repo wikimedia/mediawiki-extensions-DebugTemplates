@@ -2,11 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Clark Verbrugge",
+			"Hamilton Abreu",
+			"Liuxinyu970226",
 			"Purodha",
 			"Robby",
-			"Hamilton Abreu",
-			"Umherirrender",
-			"Liuxinyu970226"
+			"Umherirrender"
 		]
 	},
 	"debugtemplates": "The name of the extension's entry in Special:SpecialPages.",

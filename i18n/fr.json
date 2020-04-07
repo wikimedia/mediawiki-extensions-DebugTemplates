@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Macofe",
-			"Wladek92",
 			"Gomoko",
-			"Thibaut120094"
+			"Macofe",
+			"Thibaut120094",
+			"Wladek92"
 		]
 	},
 	"debugtemplates": "Déboguer les modèles",
