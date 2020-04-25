@@ -18,7 +18,7 @@ class SpecialDebugTemplates extends SpecialPage {
 	 * @param string|null $subpage Name of the subpage if any
 	 */
 	function execute( $subpage ) {
-		global $wgParser,$wgOut;
+		global $wgOut;
 
 		$wgOut->addModules( 'ext.debugTemplates' );
 

@@ -7,10 +7,11 @@
  * @author Clark Verbrugge
  * @Licence CC BY-SA 3.0
  */
+
+use MediaWiki\MediaWikiServices;
+
 class ApiDebugTemplates extends ApiBase {
 	public function execute() {
-		global $wgParser;
-
 		$params = $this->extractRequestParams();
 
 		$title_obj = Title::newFromText( $params[ 'title' ] );
@@ -26,7 +27,7 @@ class ApiDebugTemplates extends ApiBase {
 
 		if ( $frame->isGood() ) {
 			$options = ParserOptions::newFromContext( $this->getContext() );
-			$parsed = $wgParser->preprocess( $params[ 'text' ],
+			$parsed = MediaWikiServices::getInstance()->getParser()->preprocess( $params[ 'text' ],
 				$title_obj,
 				$options,
 				null,
