@@ -43,7 +43,7 @@ class ApiDebugTemplates extends ApiBase {
 	/**
 	 * Force the existence of our parameters.
 	 *
-	 * @return object Array of parameter to arrays
+	 * @return array Array of parameter to arrays
 	 */
 	public function getAllowedParams() {
 		return array_merge( parent::getAllowedParams(), [
@@ -65,7 +65,7 @@ class ApiDebugTemplates extends ApiBase {
 	/**
 	 * Provide an example of usage
 	 *
-	 * @return object Array showing an example use and help text
+	 * @return array Array showing an example use and help text
 	 */
 	public function getExamplesMessages() {
 		return [
