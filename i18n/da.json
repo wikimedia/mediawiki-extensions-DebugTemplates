@@ -6,5 +6,6 @@
 	},
 	"debugtemplates-args-title": "Parametre",
 	"debugtemplates-args-name": "Navn",
-	"debugtemplates-args-value": "Værdi"
+	"debugtemplates-args-value": "Værdi",
+	"debugtemplates-args-value-clear": "Ryd alle"
 }
