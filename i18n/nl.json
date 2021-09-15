@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mainframe98"
+			"Mainframe98",
+			"Romaine"
 		]
 	},
+	"debugtemplates-form": "Inputveld",
 	"debugtemplates-desc": "Een eenvoudige debugger voor sjablonen",
 	"debugtemplates-summary": "Voegt een [[special:DebugTemplates|speciale pagina]] toe die een interface bied voor het debuggen van sjablonen.",
 	"debugtemplates-args-title": "Parameters",
@@ -11,6 +13,9 @@
 	"debugtemplates-args-value": "Waarde",
 	"debugtemplates-args-constructed": "geen naam",
 	"debugtemplates-eval": "Alles evalueren",
+	"debugtemplates-input": "Invoertekst",
 	"debugtemplates-radio-select": "niets",
-	"debugtemplates-radio-eval": "evalueren"
+	"debugtemplates-radio-eval": "evalueren",
+	"debugtemplates-warning-template-not-a-template": "Kan sjabloon niet vinden:",
+	"apihelp-expandframe-param-title": "Een paginatitel voor context."
 }
