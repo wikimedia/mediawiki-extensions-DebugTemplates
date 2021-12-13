@@ -6,7 +6,8 @@
 			"Liuxinyu970226",
 			"Purodha",
 			"Robby",
-			"Umherirrender"
+			"Umherirrender",
+			"BaRaN6161 TURK"
 		]
 	},
 	"debugtemplates": "The name of the extension's entry in Special:SpecialPages.",
@@ -24,7 +25,7 @@
 	"debugtemplates-args-set-toggle": "Button label for set/unset all parameters.",
 	"debugtemplates-args-unused": "Button label for hiding or showing all unused parameters.",
 	"debugtemplates-args-value-clear": "Button text for clearing all parameter values.",
-	"debugtemplates-args-constructed": "String used for parameter names that cannot be determined.\n{{Identical|Noname}}",
+	"debugtemplates-args-constructed": "String used for parameter names that cannot be determined.",
 	"debugtemplates-crumb-title": "Mouse tooltip for the call stack display explaining what it is.",
 	"debugtemplates-crumb-reset": "Mouse tooltip for the button in the call stack display that clears the stack.",
 	"debugtemplates-error-button": "Button label to clear error message log.",

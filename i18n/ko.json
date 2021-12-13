@@ -7,6 +7,8 @@
 		]
 	},
 	"debugtemplates-form": "입력 공간",
+	"debugtemplates-desc": "틀을 위한 단순 디버거",
+	"debugtemplates-api": "API 호출을 위한 URL (정보 제공 전용)",
 	"debugtemplates-title": "문서 제목 (선택적, 문맥을 위해서만)",
 	"debugtemplates-args-title": "변수",
 	"debugtemplates-args-name": "이름",
@@ -20,5 +22,6 @@
 	"debugtemplates-error-button": "오류 메시지 초기화",
 	"debugtemplates-error-template-name": "오류: 틀 이름을 결정하지 못했습니다.",
 	"debugtemplates-input": "텍스트 입력",
-	"debugtemplates-warning-template-not-a-template": "틀을 찾을 수 없음:"
+	"debugtemplates-warning-template-not-a-template": "틀을 찾을 수 없음:",
+	"apihelp-expandframe-param-text": "확장할 위키텍스트입니다."
 }
