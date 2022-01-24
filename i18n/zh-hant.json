@@ -3,7 +3,8 @@
 		"authors": [
 			"Cwlin0416",
 			"Kly",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Tranve"
 		]
 	},
 	"debugtemplates": "除錯模板",
@@ -43,10 +44,10 @@
 	"debugtemplates-warning-template-not-a-template": "找不到模板：",
 	"debugtemplates-warning-template-not-found": "未知模板或內置模板：",
 	"debugtemplates-output": "除錯面版",
-	"apihelp-expandframe-description": "在 wiki 文字裡擴充模板與參數取得特定框架背景。",
-	"apihelp-expandframe-summary": "在 wiki 文字裡擴充模板與參數取得特定框架背景。",
-	"apihelp-expandframe-example-1": "以預設框架背景來解析 wiki 文字 <kbd><nowiki>{{{a}}}</nowiki></kbd>。",
-	"apihelp-expandframe-param-text": "要擴展的 wiki 文字。",
+	"apihelp-expandframe-description": "在 wikitext 裡擴充模板與參數取得特定框架背景。",
+	"apihelp-expandframe-summary": "在 wikitext 裡擴充模板與參數取得特定框架背景。",
+	"apihelp-expandframe-example-1": "以預設框架背景來解析 wikitext <kbd><nowiki>{{{a}}}</nowiki></kbd>。",
+	"apihelp-expandframe-param-text": "要擴展的 wikitext。",
 	"apihelp-expandframe-param-frame": "作為在參數名稱與值之間以 JSON 編碼對應的框架背景。",
 	"apihelp-expandframe-param-title": "用於上下文的頁面標題。"
 }
