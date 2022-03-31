@@ -4,5 +4,7 @@
 			"Yupik"
 		]
 	},
-	"debugtemplates-args-name": "Nõmm"
+	"debugtemplates-args-title": "Paramettar",
+	"debugtemplates-args-name": "Nõmm",
+	"debugtemplates-args-value": "Ärvv"
 }
