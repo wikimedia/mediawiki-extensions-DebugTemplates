@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DiegoAmbrocio",
 			"Fitoschido",
 			"Macofe",
 			"Ncontinanza"
@@ -18,12 +19,14 @@
 	"debugtemplates-args-set": "¿Setear?",
 	"debugtemplates-args-value": "Valor",
 	"debugtemplates-args-eval-all": "Evaluar",
+	"debugtemplates-args-set-toggle": "Fijar/desfijar todo",
 	"debugtemplates-args-unused": "Ocultar/mostrar los que no se usan",
 	"debugtemplates-args-value-clear": "Borrar todos",
 	"debugtemplates-args-constructed": "sinnombre",
 	"debugtemplates-crumb-reset": "Vaciar la pila.",
 	"debugtemplates-error-button": "Borrar mensajes de errores",
 	"debugtemplates-error-eval": "Error: no se pudo evaluar el texto de entrada",
+	"debugtemplates-error-parse": "Error: No se ha podido analizar el texto de entrada:",
 	"debugtemplates-error-template-name": "Error: no se pudo determinar el nombre de la plantilla.",
 	"debugtemplates-error-template-page": "Error: no se pudo cargar la página de la plantilla.",
 	"debugtemplates-error-template-revisions": "Error: no existen revisiones de página para la plantilla.",
@@ -37,5 +40,6 @@
 	"debugtemplates-warning-template-not-a-template": "No se puede encontrar la plantilla:",
 	"debugtemplates-warning-template-not-found": "Plantilla desconocida o incorporada:",
 	"debugtemplates-output": "Panel de depuración",
-	"apihelp-expandframe-param-text": "El wikitexto que expandir."
+	"apihelp-expandframe-param-text": "El wikitexto que expandir.",
+	"apihelp-expandframe-param-title": "Un título de página para el contexto."
 }
