@@ -4,7 +4,8 @@
 			"Facenapalm",
 			"Movses",
 			"Okras",
-			"WindEwriX"
+			"WindEwriX",
+			"Kaganer"
 		]
 	},
 	"debugtemplates": "Отладка шаблонов",
@@ -46,7 +47,7 @@
 	"debugtemplates-output": "Панель отладки",
 	"apihelp-expandframe-description": "Раскрытие шаблонов и параметров в вики-тексте с учётом указанного содержимого фрейма.",
 	"apihelp-expandframe-summary": "Раскрытие шаблонов и параметров в вики-тексте с учётом указанного содержимого фрейма.",
-	"apihelp-expandframe-example-1": "Распарсить викитекст <kbd><nowiki>{{{a}}}</nowiki></kbd> с определённым контексом фрейма.",
+	"apihelp-expandframe-example-1": "Распарсить вики-текст <kbd><nowiki>{{{a}}}</nowiki></kbd> с определённым контекстом фрейма.",
 	"apihelp-expandframe-param-text": "Раскрываемый вики-текст.",
 	"apihelp-expandframe-param-frame": "Содержимое фрейма в виде закодированного в JSON отображения имён параметров и значений.",
 	"apihelp-expandframe-param-title": "Название страницы для содержимого."
