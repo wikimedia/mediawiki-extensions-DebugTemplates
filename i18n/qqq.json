@@ -7,14 +7,15 @@
 			"Purodha",
 			"Robby",
 			"Umherirrender",
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Verdy p"
 		]
 	},
 	"debugtemplates": "The name of the extension's entry in Special:SpecialPages.",
 	"debugtemplates-form": "A title label for the input area pane.",
 	"debugtemplates-desc": "{{desc}}",
 	"debugtemplates-summary": "Description appearing on top of [[Special:DebugTemplates]].",
-	"debugtemplates-api": "Text label asking for the Mediawiki API URL.",
+	"debugtemplates-api": "Text label asking for the MediaWiki API URL.",
 	"debugtemplates-title": "Text label asking for the page context title.",
 	"debugtemplates-args-title": "Title of parameter list.\n{{Identical|Parameter}}",
 	"debugtemplates-args-name": "Column title in parameter list for argument names.\n{{Identical|Name}}",
