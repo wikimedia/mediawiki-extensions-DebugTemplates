@@ -5,5 +5,6 @@
 		]
 	},
 	"debugtemplates-args-title": "Parametri",
-	"debugtemplates-args-name": "Ime"
+	"debugtemplates-args-name": "Ime",
+	"debugtemplates-args-value": "Vrednost"
 }
