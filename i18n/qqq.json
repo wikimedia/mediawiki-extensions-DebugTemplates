@@ -12,7 +12,7 @@
 			"Verdy p"
 		]
 	},
-	"debugtemplates": "{{Optional}}\nThe name of the extension's entry in Special:SpecialPages.",
+	"debugtemplates": "{{name}}\nThe name of the extension's entry in Special:SpecialPages.",
 	"debugtemplates-form": "A title label for the input area pane.",
 	"debugtemplates-desc": "{{desc}}",
 	"debugtemplates-summary": "Description appearing on top of [[Special:DebugTemplates]].",
