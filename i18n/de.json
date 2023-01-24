@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Metalhead64",
-			"Purodha"
+			"Purodha",
+			"Justman10000"
 		]
 	},
 	"debugtemplates": "Vorlagen debuggen",
@@ -42,7 +43,10 @@
 	"debugtemplates-warning-template-not-a-template": "Vorlage konnte nicht gefunden werden:",
 	"debugtemplates-warning-template-not-found": "Unbekannte oder eingebaute Vorlage:",
 	"debugtemplates-output": "Debugging-Fenster",
+	"apihelp-expandframe-description": "Erweitere Vorlagen und Parameter im Wikitext unter Annahme eines bestimmten Rahmenkontexts.",
+	"apihelp-expandframe-summary": "Erweitere Vorlagen und Parameter im Wikitext unter Annahme eines bestimmten Rahmenkontexts.",
 	"apihelp-expandframe-example-1": "Parst den Wikitext <kbd><nowiki>{{{a}}}</nowiki></kbd> mit einem definierten Rahmenkontext.",
 	"apihelp-expandframe-param-text": "Der expandierende Wikitext.",
+	"apihelp-expandframe-param-frame": "Der Rahmenkontext als JSON-kodierte Zuordnung zwischen Parameternamen und Werten.",
 	"apihelp-expandframe-param-title": "Ein Seitentitel für den Kontext."
 }
