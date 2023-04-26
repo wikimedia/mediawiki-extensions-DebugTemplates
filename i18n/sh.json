@@ -4,6 +4,7 @@
 			"Vlad5250"
 		]
 	},
+	"debugtemplates-form": "Područje unosa",
 	"debugtemplates-api": "URL za upućivanje izvršničkih poziva (samo informativno)",
 	"debugtemplates-title": "Naslov stranice (neobavezno, samo za kontekst)",
 	"debugtemplates-args-title": "Parametri",
@@ -13,6 +14,7 @@
 	"debugtemplates-args-value": "Vrijednost",
 	"debugtemplates-args-eval-all": "Procijena",
 	"debugtemplates-args-set-toggle": "Zadaj/ukini sve",
+	"debugtemplates-args-unused": "Sakrij/prikaži neiskorištene",
 	"debugtemplates-args-constructed": "neimenovano",
 	"debugtemplates-eval": "Ocijeni sve",
 	"debugtemplates-radio-select": "ništa",
