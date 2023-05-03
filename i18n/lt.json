@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Eitvys200"
+			"Eitvys200",
+			"Nokeoo"
 		]
 	},
 	"debugtemplates-form": "Įvesties sritis",
+	"debugtemplates-desc": "Paprastas šablonų derinimo įrankis",
+	"debugtemplates-summary": "Prideda [[special:DebugTemplates|specialų puslapį]], kuriame pateikiama šablonų plėtimo derinimo sąsaja.",
 	"debugtemplates-title": "Puslapio pavadinimas (nebūtina, tik kontekstui)",
 	"debugtemplates-args-title": "Parametrai",
 	"debugtemplates-args-name": "Pavadinimas",
@@ -26,5 +29,6 @@
 	"debugtemplates-radio-eval": "įvertinti",
 	"debugtemplates-reset": "Anuliuoti visus vertinimus",
 	"debugtemplates-undo": "Anuliuoti vertinimą",
-	"debugtemplates-warning-template-not-a-template": "Nepavyko rasti šablono:"
+	"debugtemplates-warning-template-not-a-template": "Nepavyko rasti šablono:",
+	"apihelp-expandframe-param-text": "Vikitekstas išplėtimui."
 }
