@@ -42,7 +42,6 @@
 	"debugtemplates-warning-template-not-a-template": "Cannot find template:",
 	"debugtemplates-warning-template-not-found": "Unknown template or built-in template:",
 	"debugtemplates-output": "Debugging pane",
-	"apihelp-expandframe-description": "Expand templates and parameters in wikitext assuming a specific frame context.",
 	"apihelp-expandframe-summary": "Expand templates and parameters in wikitext assuming a specific frame context.",
 	"apihelp-expandframe-example-1": "Parse wikitext <kbd><nowiki>{{{a}}}</nowiki></kbd> with defined frame context.",
 	"apihelp-expandframe-param-text": "The wikitext to expand.",
