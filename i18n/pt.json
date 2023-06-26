@@ -43,7 +43,6 @@
 	"debugtemplates-warning-template-not-a-template": "Não foi possível encontrar a predefinição:",
 	"debugtemplates-warning-template-not-found": "Predefinição desconhecida ou que não é uma página da wiki:",
 	"debugtemplates-output": "Painel de despiste de erros",
-	"apihelp-expandframe-description": "Expandir predefinições e parâmetros em texto wiki, presumindo um contexto específico.",
 	"apihelp-expandframe-summary": "Expandir predefinições e parâmetros em texto wiki, presumindo um contexto específico.",
 	"apihelp-expandframe-example-1": "Analisar o texto wiki <kbd><nowiki>{{{a}}}</nowiki></kbd> no contexto definido.",
 	"apihelp-expandframe-param-text": "O texto wiki a ser expandido.",

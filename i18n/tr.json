@@ -45,7 +45,6 @@
 	"debugtemplates-warning-template-not-a-template": "Şablon bulunamadı:",
 	"debugtemplates-warning-template-not-found": "Bilinmeyen şablon veya yerleşik şablon:",
 	"debugtemplates-output": "Hata ayıklama bölmesi",
-	"apihelp-expandframe-description": "Belirli bir çerçeve bağlamı varsayarak vikimetinde ki şablonları ve parametreleri genişletin.",
 	"apihelp-expandframe-summary": "Belirli bir çerçeve bağlamı varsayarak vikimetinde ki şablonları ve parametreleri genişletin.",
 	"apihelp-expandframe-example-1": "Vikimetin <kbd><nowiki>{{{a}}}</nowiki></kbd> tanımlı çerçeve içeriğiyle ayrıştırın.",
 	"apihelp-expandframe-param-text": "Genişletilecek vikimetin.",

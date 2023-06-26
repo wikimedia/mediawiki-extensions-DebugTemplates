@@ -42,7 +42,6 @@
 	"debugtemplates-warning-template-not-a-template": "לא נמצאה התבנית:",
 	"debugtemplates-warning-template-not-found": "תבנית לא ידועה או תבנית מובנית:",
 	"debugtemplates-output": "חלונית איתור באגים",
-	"apihelp-expandframe-description": "הרחבת תבניות ופרמטרים בקוד ויקי בהנחה של הקשר מסגרת מסוים.",
 	"apihelp-expandframe-summary": "הרחבת תבניות ופרמטרים בקוד ויקי בהנחה של הקשר מסגרת מסוים.",
 	"apihelp-expandframe-example-1": "פענוח קוד הוויקי <kbd><nowiki>{{{a}}}</nowiki></kbd> עם הקשר מסגרת מוגדר.",
 	"apihelp-expandframe-param-text": "איזה קוד ויקי להרחיב.",

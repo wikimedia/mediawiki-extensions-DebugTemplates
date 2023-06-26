@@ -41,7 +41,6 @@
 	"debugtemplates-warning-template-not-a-template": "Predloge ni mogoče najti:",
 	"debugtemplates-warning-template-not-found": "Neznana predloga ali vgrajena predloga:",
 	"debugtemplates-output": "Panel za odpravljanje napak",
-	"apihelp-expandframe-description": "Razširi predloge in parametre v vikibesedilo ob predpostavki specifičnega kontekstnega okvira.",
 	"apihelp-expandframe-summary": "Razširi predloge in parametre v vikibesedilo ob predpostavki specifičnega kontekstnega okvira.",
 	"apihelp-expandframe-example-1": "Razčleni vikibesedilo <kbd><nowiki>{{{a}}}</nowiki></kbd> z opredeljenim kontekstom okvira.",
 	"apihelp-expandframe-param-text": "Vikibesedilo za razširitev.",

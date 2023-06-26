@@ -41,7 +41,6 @@
 	"debugtemplates-warning-template-not-a-template": "Kan ikke finne mal:",
 	"debugtemplates-warning-template-not-found": "Ukjent mal eller innbygd mal:",
 	"debugtemplates-output": "Feilmeldingspanel",
-	"apihelp-expandframe-description": "Utvid maler og parametre i wikitekst med antagelser om en viss rammekontekst.",
 	"apihelp-expandframe-summary": "Utvid maler og parametre i wikitekst med antagelser om en viss rammekontekst.",
 	"apihelp-expandframe-example-1": "Tolk wikiteksten <kbd><nowiki>{{{a}}}</nowiki></kbd> med en definert rammekontekst.",
 	"apihelp-expandframe-param-text": "Wikiteksten som skal utvides.",

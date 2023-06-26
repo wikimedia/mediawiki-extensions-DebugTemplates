@@ -41,7 +41,6 @@
 	"debugtemplates-warning-template-not-a-template": "Не можам да ја најдам предлошката:",
 	"debugtemplates-warning-template-not-found": "Непозната или вградена предлошка:",
 	"debugtemplates-output": "Прозорец за отстранување грешки",
-	"apihelp-expandframe-description": "Прошири ги предлошките и параметрите во викитекстот, претпоставувајќи одредена рамка за контекст.",
 	"apihelp-expandframe-summary": "Прошири ги предлошките и параметрите во викитекстот, претпоставувајќи одредена рамка за контекст.",
 	"apihelp-expandframe-example-1": "Расчлени го викитекстот <kbd><nowiki>{{{a}}}</nowiki></kbd> со зададен рамковен контекст.",
 	"apihelp-expandframe-param-text": "Викитекстот за проширување.",

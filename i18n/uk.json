@@ -43,7 +43,6 @@
 	"debugtemplates-warning-template-not-a-template": "Не вдалося знайти шаблон:",
 	"debugtemplates-warning-template-not-found": "Невідомий шаблон або вбудований шаблон:",
 	"debugtemplates-output": "Панель налагодження",
-	"apihelp-expandframe-description": "Розгорнути шаблони і параметри у вікітексті, припускаючи конкретний контекст фрейма.",
 	"apihelp-expandframe-summary": "Розгорнути шаблони і параметри у вікітексті, припускаючи конкретний контекст фрейма.",
 	"apihelp-expandframe-example-1": "Парсити вікітекст <kbd><nowiki>{{{a}}}</nowiki></kbd> із визначеним контекстом фрейма.",
 	"apihelp-expandframe-param-text": "Вікітекст для розкриття.",

@@ -41,7 +41,6 @@
 	"debugtemplates-warning-template-not-a-template": "Non pote trovar patrono:",
 	"debugtemplates-warning-template-not-found": "Patrono incognite o integrate:",
 	"debugtemplates-output": "Pannello de depuration",
-	"apihelp-expandframe-description": "Expander patronos e parametros in wikitexto assumente un contexto specific de quadro.",
 	"apihelp-expandframe-summary": "Expander patronos e parametros in wikitexto assumente un contexto specific de quadro.",
 	"apihelp-expandframe-example-1": "Analysar wikitexto <kbd><nowiki>{{{a}}}</nowiki></kbd> con contexto definite de quadro.",
 	"apihelp-expandframe-param-text": "Le wikitexto a expander.",

@@ -41,7 +41,6 @@
 	"debugtemplates-warning-template-not-a-template": "Nun pudo alcontrase la plantía:",
 	"debugtemplates-warning-template-not-found": "Plantía desconocida o integrada:",
 	"debugtemplates-output": "Panel de depuración",
-	"apihelp-expandframe-description": "Espander les plantíes y parámetros en testu wiki asumiendo un contestu específicu.",
 	"apihelp-expandframe-summary": "Espander les plantíes y parámetros en testu wiki asumiendo un contestu específicu.",
 	"apihelp-expandframe-example-1": "Analizar el wikitestu <kbd><nowiki>{{{a}}}</nowiki></kbd> con un contestu de cuadru definíu.",
 	"apihelp-expandframe-param-text": "El testu wiki a espander.",

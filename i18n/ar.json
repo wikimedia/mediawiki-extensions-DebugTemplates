@@ -41,7 +41,6 @@
 	"debugtemplates-warning-template-not-a-template": "لا يمكن العثور على القالب:",
 	"debugtemplates-warning-template-not-found": "قالب غير معروف أو قالب مضمن:",
 	"debugtemplates-output": "جزء التصحيح",
-	"apihelp-expandframe-description": "قم بتوسيع القوالب والمعلمات في نص الويكي بافتراض سياق إطار معين.",
 	"apihelp-expandframe-summary": "قم بتوسيع القوالب والمعلمات في نص الويكي بافتراض سياق إطار معين.",
 	"apihelp-expandframe-example-1": "تحليل تص الويكي <kbd><nowiki>{{{a}}}</nowiki></kbd> مع سياق الإطار المحدد.",
 	"apihelp-expandframe-param-text": "نص الويكي للتوسيع.",

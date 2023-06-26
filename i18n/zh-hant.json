@@ -45,7 +45,6 @@
 	"debugtemplates-warning-template-not-a-template": "找不到模板：",
 	"debugtemplates-warning-template-not-found": "未知模板或內置模板：",
 	"debugtemplates-output": "除錯面版",
-	"apihelp-expandframe-description": "在 wikitext 裡擴充模板與參數取得特定框架背景。",
 	"apihelp-expandframe-summary": "在 wikitext 裡擴充模板與參數取得特定框架背景。",
 	"apihelp-expandframe-example-1": "以預設框架背景來解析 wikitext <kbd><nowiki>{{{a}}}</nowiki></kbd>。",
 	"apihelp-expandframe-param-text": "要擴展的 wikitext。",

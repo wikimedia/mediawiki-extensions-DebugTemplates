@@ -45,7 +45,6 @@
 	"debugtemplates-warning-template-not-a-template": "Impossible de trouver le modèle :",
 	"debugtemplates-warning-template-not-found": "Modèle inconnu ou modèle intégré :",
 	"debugtemplates-output": "Volet de débogage",
-	"apihelp-expandframe-description": "Développe les modèles et leur paramètres présents dans du wikicode, dans un cadre contextuel spécifique.",
 	"apihelp-expandframe-summary": "Développe les modèles et leurs paramètres présents dans du wikicode, dans un cadre contextuel spécifique.",
 	"apihelp-expandframe-example-1": "Analyser le wikicode <kbd><nowiki>{{{a}}}</nowiki></kbd>, dans un cadre contextuel défini.",
 	"apihelp-expandframe-param-text": "Le wikicode à développer.",
