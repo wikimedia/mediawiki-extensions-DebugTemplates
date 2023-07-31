@@ -1,8 +1,0 @@
-{
-	"@metadata": {
-		"authors": [
-			"Piano1forte2"
-		]
-	},
-	"debugtemplates-intro": "This page gives you an interface for debugging the template expansion of some text. Note that this is still a work in progress! But try it out by typing '<nowiki>{{foo|abc}}</nowiki>' into the input text area."
-}
