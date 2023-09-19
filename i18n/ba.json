@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Аҡҡашҡа"
+			"Аҡҡашҡа",
+			"З. ӘЙЛЕ"
 		]
 	},
-	"debugtemplates-args-title": "Параметр",
+	"debugtemplates-args-title": "Параметрҙар",
 	"debugtemplates-args-name": "Исем",
 	"debugtemplates-args-value": "Ҡиммәт",
-	"debugtemplates-error-button": "Хаталар тураһындағы хәбәрҙәрҙе таҙартығыҙ",
-	"debugtemplates-error-arg-eval": "Хата, шаблондың аргументын иҫәпләп сығарыу мөмкин түгел:",
-	"debugtemplates-error-template-page": "Хата, шаблон битен тултырыу килеп сыҡманы:",
-	"debugtemplates-radio-select": "бер нимә лә"
+	"debugtemplates-error-button": "Хаталар тураһындағы хәбәрҙәрҙе таҙартырға",
+	"debugtemplates-error-arg-eval": "Хата: ҡлыптың аргументын иҫәпләп сығарыу мөмкин түгел:",
+	"debugtemplates-error-template-page": "Хата: ҡалып битен йөкләп булманы:",
+	"debugtemplates-radio-select": "бер нәмәгә лә"
 }
