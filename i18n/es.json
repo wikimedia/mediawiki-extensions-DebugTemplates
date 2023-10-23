@@ -4,7 +4,8 @@
 			"Fitoschido",
 			"Macofe",
 			"Ncontinanza",
-			"DiegoAmbrocio"
+			"DiegoAmbrocio",
+			"No se"
 		]
 	},
 	"debugtemplates": "Depuración de plantillas",
@@ -41,5 +42,6 @@
 	"debugtemplates-warning-template-not-found": "Plantilla desconocida o incorporada:",
 	"debugtemplates-output": "Panel de depuración",
 	"apihelp-expandframe-param-text": "El wikitexto que expandir.",
+	"apihelp-expandframe-param-frame": "El contexto del marco como un mapa codificado en JSON entre nombres y valores de parámetros.",
 	"apihelp-expandframe-param-title": "Un título de página para el contexto."
 }
