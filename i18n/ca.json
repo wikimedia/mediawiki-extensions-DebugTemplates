@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Macofe"
+			"Macofe",
+			"Lluis Cat"
 		]
 	},
 	"debugtemplates-args-title": "Paràmetres",
 	"debugtemplates-args-name": "Nom",
 	"debugtemplates-args-value": "Valor",
-	"debugtemplates-radio-select": "res"
+	"debugtemplates-radio-select": "res",
+	"debugtemplates-warning-template-not-a-template": "No es pot trobar la plantilla:"
 }
