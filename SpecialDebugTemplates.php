@@ -46,7 +46,7 @@ class SpecialDebugTemplates extends SpecialPage {
 	 * @return string
 	 */
 	private function makeForm( $title, $input ) {
-		global $wgScriptPath,$wgServer;
+		global $wgScriptPath, $wgServer;
 		$self = $this->getPageTitle();
 		$request = $this->getRequest();
 		$user = $this->getUser();
