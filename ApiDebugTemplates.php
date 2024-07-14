@@ -23,15 +23,18 @@ class ApiDebugTemplates extends ApiBase {
 		// The frame field is a JSON-encoded object
 		$frame = FormatJson::parse( $params[ 'frame' ], FormatJson::FORCE_ASSOC );
 
+		$parser = MediaWikiServices::getInstance()->getParser();
 		$result = $this->getResult();
 
 		if ( $frame->isGood() ) {
 			$options = ParserOptions::newFromContext( $this->getContext() );
-			$parsed = MediaWikiServices::getInstance()->getParser()->preprocess( $params[ 'text' ],
+			$parser->setOptions( $options );
+			$parsed = $parser->preprocess( $params[ 'text' ],
 				$title_obj,
 				$options,
 				null,
-				$frame->getValue() );
+				$parser->getPreprocessor()->newCustomFrame( $frame->getValue() )
+			);
 			$this->getResult()->addValue( null, $this->getModuleName(),
 				 [ 'result' => $parsed ] );
 		} else {

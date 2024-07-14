@@ -1,4 +1,6 @@
 <?php
+use MediaWiki\Content\TextContent;
+use MediaWiki\MediaWikiServices;
 
 /*
  * This is the code that creates the special page.
@@ -127,21 +129,21 @@ class SpecialDebugTemplates extends SpecialPage {
 	private function makeArgTable() {
 		return '<div style="padding-left:10px;display:inline-block;width:25%;vertical-align:top;">'
 			. '<h2>'
-			. $this->msg( 'debugtemplates-args-title' )->text()
+			. $this->msg( 'debugtemplates-args-title' )->escaped()
 			. '<input type="button" id="dt-args-set-toggle" style="margin-left:10px;" value="'
-			. $this->msg( 'debugtemplates-args-set-toggle' )->text()
+			. $this->msg( 'debugtemplates-args-set-toggle' )->escaped()
 			. '"><input type="button" id="dt-args-value-clear" style="margin-left:10px;" value="'
-			. $this->msg( 'debugtemplates-args-value-clear' )->text()
+			. $this->msg( 'debugtemplates-args-value-clear' )->escaped()
 			. '"></h2><div style="width:100%;overflow:auto;" id="dt-argtable-wrapper">'
 			. '<table id="dt-argtable" cellpadding="2" cellspacing="2" style="width:100%;">'
 			. '<thead><tr><th id="dt-arg-set"><span>'
-			. $this->msg( 'debugtemplates-args-set' )->text()
+			. $this->msg( 'debugtemplates-args-set' )->escaped()
 			. '</span></th><th><span>'
-			. $this->msg( 'debugtemplates-args-name' )->text()
+			. $this->msg( 'debugtemplates-args-name' )->escaped()
 			. '</span></th style="width:100%;"><th><span>'
-			. $this->msg( 'debugtemplates-args-value' )->text()
+			. $this->msg( 'debugtemplates-args-value' )->escaped()
 			. '</span></th style="width:100%;"><th><span>'
-			. $this->msg( 'debugtemplates-args-eval' )->text()
+			. $this->msg( 'debugtemplates-args-eval' )->escaped()
 			. '</span></th></tr></thead></table></div></div>';
 	}
 
@@ -152,22 +154,22 @@ class SpecialDebugTemplates extends SpecialPage {
 	 */
 	private function makeDebugButtons() {
 		return '<input type="button" id="dt-eval" value="'
-			. $this->msg( 'debugtemplates-eval' )->text()
+			. $this->msg( 'debugtemplates-eval' )->escaped()
 			. '"><input type="button" id="dt-undo" style="margin-left:10px;" disabled="disabled" value="'
-			. $this->msg( 'debugtemplates-undo' )->text()
+			. $this->msg( 'debugtemplates-undo' )->escaped()
 			. '"><input type="button" id="dt-reset" style="margin-left:10px;" disabled="disabled" value="'
-			. $this->msg( 'debugtemplates-reset' )->text()
+			. $this->msg( 'debugtemplates-reset' )->escaped()
 			. '"><span style="vertical-align:middle;margin-left:2em;"><span class="dt-radio-label">'
-			. $this->msg( 'debugtemplates-radio-intro' )->text()
+			. $this->msg( 'debugtemplates-radio-intro' )->escaped()
 			. '</span><input type="radio" id="dt-radio-select" name="dt-radio-debug" class="dt-radio-buttons">'
 			. '<label class="dt-radio-label" for="dt-radio-select">'
-			. $this->msg( 'debugtemplates-radio-select' )->text()
+			. $this->msg( 'debugtemplates-radio-select' )->escaped()
 			. '</label><input type="radio" checked id="dt-radio-eval" name="dt-radio-debug" class="dt-radio-buttons">'
 			. '<label class="dt-radio-label" for="dt-radio-eval">'
-			. $this->msg( 'debugtemplates-radio-eval' )->text()
+			. $this->msg( 'debugtemplates-radio-eval' )->escaped()
 			. '</label><input type="radio" id="dt-radio-descend" name="dt-radio-debug" class="dt-radio-buttons">'
 			. '<label class="dt-radio-label" for="dt-radio-descend">'
-			. $this->msg( 'debugtemplates-radio-descend' )->text()
+			. $this->msg( 'debugtemplates-radio-descend' )->escaped()
 			. '</label></span><br>';
 	}
 
@@ -190,10 +192,11 @@ class SpecialDebugTemplates extends SpecialPage {
 	 */
 	function getPage( $t ) {
 		$title = Title::newFromText( $t );
-		if ( is_object( $title ) ) {
-			$r = Revision::newFromTitle( $title );
-			if ( is_object( $r ) ) {
-				return ContentHandler::getContentText( $r->getContent() );
+		if ( $title ) {
+			$page = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $title );
+			$content = $page->getContent();
+			if ( $content instanceof TextContent ) {
+				return $content->getText();
 			}
 		}
 		return "";

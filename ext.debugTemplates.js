@@ -126,8 +126,6 @@ function doPost( url, params, callback ) {
     var x = new XMLHttpRequest();
     x.open( "POST", url, true );
     x.setRequestHeader( "Content-type", "application/x-www-form-urlencoded" );
-    x.setRequestHeader( "Content-length", params.length );
-    x.setRequestHeader( "Connection", "close" );
     x.setRequestHeader( "Api-User-Agent", "DebugTemplatesExtension/1.0" );
 
     x.onreadystatechange = function() {
@@ -900,6 +898,7 @@ function htmlFromAST_r_template( node ) {
     var nid = nindex++;
     span.setAttribute( 'id', 'dt-id-' + nid );
     span.appendChild( htmlFromAST_r( node.firstChild ) );
+    span.addEventListener( 'click', evalTemplateFromComponent, false );
     h.appendChild( span );
     espans.push( span );
 
@@ -926,6 +925,7 @@ function htmlFromAST_r_template( node ) {
     var outid = nindex++;
     span.setAttribute( 'id', 'dt-id-' + outid );
     span.appendChild( document.createTextNode( '}}' ) );
+    span.addEventListener( 'click', evalTemplateFromComponent, false );
     h.appendChild( span );
     espans.push( span );
 
@@ -941,6 +941,10 @@ function htmlFromAST_r_template( node ) {
         espans[ i ].addEventListener( 'mouseout', emphasizeTemplate );
     }
     return h;
+}
+
+function evalTemplateFromComponent() {
+    evalText.call( document.getElementById ( 'dt-id-' + this.getAttribute('dt-emph-template-in' ) ) );
 }
 
 /**
@@ -1001,6 +1005,7 @@ function htmlFromAST_r_tplarg( node ) {
     span = document.createElement( 'span' );
     var nid = nindex++;
     span.setAttribute( 'id', 'dt-id-' + nid );
+    span.addEventListener( 'click', evalTplargFromComponent, false );
     span.appendChild( htmlFromAST_r( node.firstChild ) );
     h.appendChild( span );
     espans.push( span );
@@ -1027,6 +1032,7 @@ function htmlFromAST_r_tplarg( node ) {
     span = document.createElement( 'span' );
     var outid = nindex++;
     span.setAttribute( 'id', 'dt-id-' + outid );
+    span.addEventListener( 'click', evalTplargFromComponent, false );
     span.appendChild( document.createTextNode( '}}}' ) );
     h.appendChild( span );
     espans.push( span );
@@ -1044,6 +1050,10 @@ function htmlFromAST_r_tplarg( node ) {
         espans[ i ].addEventListener( 'mouseout', emphasizeTplarg );
     }
     return h;
+}
+
+function evalTplargFromComponent() {
+    evalText.call( document.getElementById( 'dt-id-' + this.getAttribute("dt-emph-tplarg-in") ) );
 }
 
 /**
