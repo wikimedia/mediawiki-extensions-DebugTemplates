@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Chaduvari",
 			"JVRKPRASAD"
 		]
 	},
 	"debugtemplates-args-eval": " అన్నీ లెక్కించు",
-	"debugtemplates-args-set-toggle": "సెట్ / అన్ని అన్‌సెట్ చేయి",
+	"debugtemplates-args-set-toggle": "అన్నిటినీ సెట్/అన్‌సెట్ చేయి",
 	"debugtemplates-args-value-clear": "అన్నీ తుడిచివేయి",
 	"debugtemplates-error-button": " లోపం సందేశాలు రద్దు చేయి",
 	"debugtemplates-error-parse": "లోపం: ఇన్పుట్ టెక్స్ట్ అన్వయించడం సాధ్యం కాలేదు:",
