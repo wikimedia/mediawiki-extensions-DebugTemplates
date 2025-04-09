@@ -3,7 +3,8 @@
 		"authors": [
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
-			"Felipe L. Ewald"
+			"Felipe L. Ewald",
+			"TheEduGobi"
 		]
 	},
 	"debugtemplates": "Depuração de erros em predefinições",
@@ -44,7 +45,7 @@
 	"debugtemplates-warning-template-not-found": "Predefinição desconhecida ou que não é uma página da wiki:",
 	"debugtemplates-output": "Painel de depuração de erros",
 	"apihelp-expandframe-summary": "Expandir predefinições e parâmetros em texto wiki, presumindo um contexto específico.",
-	"apihelp-expandframe-example-1": "Analisar o texto wiki <kbd><nowiki>{{{a}}}</nowiki></kbd> no contexto definido.",
+	"apihelp-expandframe-example-1": "Analisar o wikitexto <kbd><nowiki>{{{a}}}</nowiki></kbd> no contexto do frame definido.",
 	"apihelp-expandframe-param-text": "O texto wiki a ser expandido.",
 	"apihelp-expandframe-param-frame": "O contexto para uma expansão, na forma de um mapeamento entre os nomes e os valores dos parâmetros, em formato JSON.",
 	"apihelp-expandframe-param-title": "Um título de página, como contexto de expansão."
