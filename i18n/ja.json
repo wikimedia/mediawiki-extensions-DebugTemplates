@@ -13,5 +13,5 @@
 	"debugtemplates-error-button": "エラーメッセージのクリア",
 	"debugtemplates-error-parse": "エラー: 入力テキストを構文解析できません:",
 	"debugtemplates-error-template-name": "エラー: テンプレート名を決定できません:",
-	"debugtemplates-error-template-page": "エラー: テンプレートページをロードできません:"
+	"debugtemplates-error-template-page": "エラー: テンプレートページを読み込めませんでした:"
 }
