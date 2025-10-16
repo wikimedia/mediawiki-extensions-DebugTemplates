@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Meno25",
 			"ديفيد"
 		]
 	},
@@ -18,7 +19,7 @@
 	"debugtemplates-args-eval-all": "تقييم",
 	"debugtemplates-args-set-toggle": "تعيين/إلغاء تعيين الجميع",
 	"debugtemplates-args-unused": "إخفاء/إظهار غير المستخدمة",
-	"debugtemplates-args-value-clear": "امسح الكل",
+	"debugtemplates-args-value-clear": "مسح الكل",
 	"debugtemplates-args-constructed": "بدون اسم",
 	"debugtemplates-crumb-title": "كومة من القوالب التي نزلت بها، يمكنك النقر على إدخال للعودة إلى هذه الحالة.",
 	"debugtemplates-crumb-reset": "مسح المكدس.",
