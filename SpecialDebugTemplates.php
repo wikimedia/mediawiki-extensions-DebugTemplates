@@ -2,6 +2,7 @@
 use MediaWiki\Content\TextContent;
 use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\SpecialPage\SpecialPage;
 
 /*
  * This is the code that creates the special page.

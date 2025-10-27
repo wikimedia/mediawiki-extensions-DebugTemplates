@@ -8,7 +8,12 @@
  * @Licence CC BY-SA 3.0
  */
 
+use MediaWiki\Api\ApiBase;
+use MediaWiki\Json\FormatJson;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Parser\ParserOptions;
+use MediaWiki\Title\Title;
+use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiDebugTemplates extends ApiBase {
 	public function execute() {
@@ -51,16 +56,16 @@ class ApiDebugTemplates extends ApiBase {
 	public function getAllowedParams() {
 		return array_merge( parent::getAllowedParams(), [
 				'text' => [
-					ApiBase::PARAM_TYPE => 'string',
-					ApiBase::PARAM_REQUIRED => true
+					ParamValidator::PARAM_TYPE => 'string',
+					ParamValidator::PARAM_REQUIRED => true
 				],
 				'frame' => [
-					ApiBase::PARAM_TYPE => 'string',
-					ApiBase::PARAM_DFLT => '{}'
-					// ApiBase::PARAM_REQUIRED => true
+					ParamValidator::PARAM_TYPE => 'string',
+					ParamValidator::PARAM_DEFAULT => '{}'
+					// ParamValidator::PARAM_REQUIRED => true
 				],
 				'title' => [
-					ApiBase::PARAM_DFLT => 'API'
+					ParamValidator::PARAM_DEFAULT => 'API'
 				],
 			] );
 	}
