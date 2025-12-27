@@ -1,5 +1,6 @@
 <?php
 use MediaWiki\Content\TextContent;
+use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
 
 /*
@@ -59,34 +60,37 @@ class SpecialDebugTemplates extends SpecialPage {
 
 		// Create a field holding the url for api.php calls.  This is set to readonly, but still
 		// presented and even used so it could be changed if ever cross-site scripting is possible.
-		$form .= '<p>' . Xml::inputLabel(
+		$form .= '<p>' . Html::label(
 			$this->msg( 'debugtemplates-api' )->plain(),
-			'wpAPIPrefix',
 			'dt-api',
-			60,
-			$wgServer . $wgScriptPath . '/api.php',
-			[ 'autofocus' => '', 'class' => 'mw-ui-input-inline', 'style' => 'width:100%;', 'readonly' => 'readonly' ]
+			[ 'class' => 'mw-ui-input-inline' ]
+		) . "\u{00A0}" . Html::input(
+			'wpAPIPrefix', $wgServer . $wgScriptPath . '/api.php',
+			'text',
+			[ 'id' => 'dt-api', 'size' => 60, 'autofocus' => '',
+				'class' => 'mw-ui-input-inline', 'style' => 'width:100%;', 'readonly' => 'readonly' ]
 		) . '</p>';
 
 		// Entry of the context title of the page that will be debugged.
-		$form .= '<p>' . Xml::inputLabel(
+		$form .= '<p>' . Html::label(
 			$this->msg( 'debugtemplates-title' )->plain(),
-			'wpContextTitle',
 			'dt-title',
-			60,
+			[ 'class' => 'mw-ui-input-inline' ]
+		) . "\u{00A0}" . Html::input(
+			'wpContextTitle',
 			$title,
-			[ 'autofocus' => '', 'class' => 'mw-ui-input-inline', 'style' => 'width:100%;' ]
+			'text',
+			[ 'id' => 'dt-title', 'size' => 60, 'autofocus' => '',
+				'class' => 'mw-ui-input-inline', 'style' => 'width:100%;' ]
 		) . '</p></div>';
 
 		// The main input area for entering and editing the text being debugged.
 		$form .= '<div style="display:inline-block;width:70%;"><h2>'
 			. $this->msg( 'debugtemplates-input' )->text() . '</h2>';
-		$form .= Xml::textarea(
+		$form .= Html::textarea(
 			'dt-input',
 			$input,
-			1,
-			15,
-			[ 'id' => 'dt-input' ]
+			[ 'id' => 'dt-input', 'cols' => 1, 'rows' => 15 ]
 		) . '</div>';
 
 		// Next to the editable input is an array of input parameters, along with some buttons for operating on them.
