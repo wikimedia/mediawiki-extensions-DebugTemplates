@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"debugtemplates": "Schablounen debuggen",
@@ -10,7 +11,7 @@
 	"debugtemplates-args-name": "Numm",
 	"debugtemplates-args-value": "Wäert",
 	"debugtemplates-args-eval-all": "Bewäerten",
-	"debugtemplates-args-value-clear": "All eidelmaachen",
+	"debugtemplates-args-value-clear": "All eidel maachen",
 	"debugtemplates-args-constructed": "noname",
 	"debugtemplates-error-button": "Feelermessage läschen",
 	"debugtemplates-error-template-name": "Feeler, den Numm vun der Schabloun konnt net festgestallt ginn:",
