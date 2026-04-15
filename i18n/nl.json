@@ -3,7 +3,8 @@
 		"authors": [
 			"Mainframe98",
 			"McDutchie",
-			"Romaine"
+			"Romaine",
+			"Siebrand"
 		]
 	},
 	"debugtemplates-form": "Inputveld",
@@ -18,7 +19,7 @@
 	"debugtemplates-args-value": "Waarde",
 	"debugtemplates-args-eval-all": "Evalueren",
 	"debugtemplates-args-set-toggle": "Alles in-/uitschakelen",
-	"debugtemplates-args-unused": "Verberg/toon ongebruikte",
+	"debugtemplates-args-unused": "Ongebruikte weergeven/verbergen",
 	"debugtemplates-args-value-clear": "Alles wissen",
 	"debugtemplates-args-constructed": "geen naam",
 	"debugtemplates-crumb-title": "Stapel sjablonen waarin u bent afgedaald. U kunt op een onderdeel klikken om naar die status terug te keren.",
