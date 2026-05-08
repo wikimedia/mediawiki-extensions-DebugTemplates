@@ -12,7 +12,7 @@
 	"debugtemplates-desc": "틀을 위한 단순 디버거",
 	"debugtemplates-summary": "틀 디버깅 확장 기능을 위한 인터페이스를 제공하는 [[special:DebugTemplates|특수 문서]]를 추가합니다.",
 	"debugtemplates-api": "API 호출을 위한 URL (정보 제공 전용)",
-	"debugtemplates-title": "문서 제목 (선택적, 문맥을 위해서만)",
+	"debugtemplates-title": "문서 제목 (선택 사항, 문맥을 위해서만)",
 	"debugtemplates-args-title": "매개변수",
 	"debugtemplates-args-name": "이름",
 	"debugtemplates-args-eval": "모두 평가",
