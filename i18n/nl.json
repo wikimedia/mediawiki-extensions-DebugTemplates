@@ -43,7 +43,7 @@
 	"debugtemplates-warning-template-not-a-template": "Kan sjabloon niet vinden:",
 	"debugtemplates-warning-template-not-found": "Onbekend of ingebouwd sjabloon:",
 	"debugtemplates-output": "Deelvenster foutopsporing",
-	"apihelp-expandframe-summary": "Sjablonen en parameters in wikitekst uitbreiden, uitgaande van een bepaalde framecontext.",
+	"apihelp-expandframe-summary": "Sjablonen en parameters in wikitekst uitbreiden, uitgaande van een specifieke framecontext.",
 	"apihelp-expandframe-example-1": "De wikitekst <kbd><nowiki>{{{a}}}</nowiki></kbd> ontleden in de gedefinieerde framecontext.",
 	"apihelp-expandframe-param-text": "De uit te breiden wikitekst.",
 	"apihelp-expandframe-param-frame": "De framecontext als JSON-gecodeerde omzetting tussen parameternamen en -waarden.",
