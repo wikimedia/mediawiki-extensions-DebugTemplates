@@ -1,14 +1,37 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
+	"debugtemplates-form": "ننوت سيمه",
+	"debugtemplates-api": "د کاريال‌بهير‌مخبڼې رابلنو لپاره وېبتړ (يوازې مالومات)",
+	"debugtemplates-args-title": "ارزښتونه",
 	"debugtemplates-args-name": "نوم",
+	"debugtemplates-args-eval": "د ټولو ارزول",
+	"debugtemplates-args-set": "اوڼلی؟",
 	"debugtemplates-args-value": "ارزښت",
-	"debugtemplates-args-value-clear": "ټول سپينول",
-	"debugtemplates-args-constructed": "بې نومه",
+	"debugtemplates-args-eval-all": "ارزول",
+	"debugtemplates-args-set-toggle": "ټول اوڼل/نااوڼل",
+	"debugtemplates-args-unused": "ناکارېدلي پټول/ښودل",
+	"debugtemplates-args-value-clear": "ټول سپاکول",
+	"debugtemplates-args-constructed": "بې‌نومه",
+	"debugtemplates-crumb-reset": "ډېرۍ سپا کړئ.",
 	"debugtemplates-error-button": "د تېروتنو پيغامونه سپينول",
+	"debugtemplates-error-arg-eval": "تېروتنه: د کينډۍ دليل ارزولی نشي:",
+	"debugtemplates-error-eval": "تېروتنه: ننوت ليک ارزولي نشي:",
+	"debugtemplates-error-parse": "تېروتنه: ننوت ليک ټوټه‌کولی نشي:",
+	"debugtemplates-error-template-page": "تېروتنه: کينډۍ مخ نشي کارولي:",
+	"debugtemplates-error-template-revisions": "تېروتنه: د کينډۍ هېڅ مخ بياليدنو شتون نه درلود:",
 	"debugtemplates-eval": "ټول ارزول",
-	"debugtemplates-radio-select": "هېڅ څيز"
+	"debugtemplates-input": "ليک وردننه کول",
+	"debugtemplates-radio-select": "هېڅ څيز",
+	"debugtemplates-radio-eval": "ارزول",
+	"debugtemplates-radio-descend": "په هغې کې ورکښته شئ (که چېرې يوه کينډۍ وي).",
+	"debugtemplates-reset": "ټولې ارزونې ناکړ کړئ",
+	"debugtemplates-undo": "ارزونه ناکړ کول",
+	"debugtemplates-warning-template-not-a-template": "کينډۍ نشي موندلی:",
+	"debugtemplates-warning-template-not-found": "ناپېژانده کينډۍ يا گولۍ‌داره کينډۍ:",
+	"apihelp-expandframe-param-text": "ويکي‌ليک چې غځېږي."
 }
